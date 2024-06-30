@@ -1,0 +1,39 @@
+<section class="content">
+  <div class="container">
+      <div class="row clealfix">
+          <div class="col-lg-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2><strong>Message</strong> Context</h2>
+                        </div>
+                        <div class="body">
+                            <button type="button" class="btn btn-primary btn-toastr mr-1" (click)="showInfo()">General Info</button>
+                            <button type="button" class="btn btn-success btn-toastr mr-1" (click)="showSuccess()">Success Info</button>
+                            <button type="button" class="btn btn-warning btn-toastr mr-1" (click)="showWarning()">Warning Info</button>
+                            <button type="button" class="btn btn-danger btn-toastr mr-1" (click)="showError()">Error Info</button>
+                        </div>
+                    </div>
+          </div>
+      </div>
+
+      <div class="row clealfix">
+          <div class="col-lg-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Popup</strong> Positions</h2>
+                  </div>
+                  <div class="body">
+                      <button type="button" class="btn btn-default btn-toastr mr-1" (click)="showBottomRight()">Bottom Right</button>
+                      <button type="button" class="btn btn-default btn-toastr mr-1" (click)="showBottomLeft()">Bottom Left</button>
+                      <button type="button" class="btn btn-default btn-toastr mr-1" (click)="showTopLeft()">Top Left</button>
+                      <button type="button" class="btn btn-default btn-toastr mr-1" (click)="showTopRight()">Top Right</button>
+                      <button type="button" class="btn btn-default btn-toastr mr-1" (click)="showTopFull()">Top Full Width</button>
+                      <button type="button" class="btn btn-default btn-toastr mr-1" (click)="showBottomFull()">Bottom Full Width</button>
+                      <button type="button" class="btn btn-default btn-toastr mr-1" (click)="showTopCenter()">Top Center</button>
+                      <button type="button" class="btn btn-default btn-toastr mr-1" (click)="showBottomCenter()">Bottom Center</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

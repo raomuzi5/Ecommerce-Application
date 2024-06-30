@@ -1,0 +1,14 @@
+D:\ERPproject\ERP.Domain\bin\Release\net6.0\ERP.Domain.deps.json
+D:\ERPproject\ERP.Domain\bin\Release\net6.0\ERP.Domain.runtimeconfig.json
+D:\ERPproject\ERP.Domain\bin\Release\net6.0\ERP.Domain.dll
+D:\ERPproject\ERP.Domain\bin\Release\net6.0\ref\ERP.Domain.dll
+D:\ERPproject\ERP.Domain\bin\Release\net6.0\ERP.Domain.pdb
+D:\ERPproject\ERP.Domain\obj\Release\net6.0\ERP.Domain.csproj.AssemblyReference.cache
+D:\ERPproject\ERP.Domain\obj\Release\net6.0\ERP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ERPproject\ERP.Domain\obj\Release\net6.0\ERP.Domain.AssemblyInfoInputs.cache
+D:\ERPproject\ERP.Domain\obj\Release\net6.0\ERP.Domain.AssemblyInfo.cs
+D:\ERPproject\ERP.Domain\obj\Release\net6.0\ERP.Domain.csproj.CoreCompileInputs.cache
+D:\ERPproject\ERP.Domain\obj\Release\net6.0\ERP.Domain.dll
+D:\ERPproject\ERP.Domain\obj\Release\net6.0\ref\ERP.Domain.dll
+D:\ERPproject\ERP.Domain\obj\Release\net6.0\ERP.Domain.pdb
+D:\ERPproject\ERP.Domain\obj\Release\net6.0\ERP.Domain.genruntimeconfig.cache

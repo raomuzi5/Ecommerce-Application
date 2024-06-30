@@ -1,0 +1,12 @@
+D:\ERPproject\ERP.Application\bin\Release\net6.0\ERP.Application.deps.json
+D:\ERPproject\ERP.Application\bin\Release\net6.0\ERP.Application.dll
+D:\ERPproject\ERP.Application\bin\Release\net6.0\ref\ERP.Application.dll
+D:\ERPproject\ERP.Application\bin\Release\net6.0\ERP.Application.pdb
+D:\ERPproject\ERP.Application\obj\Release\net6.0\ERP.Application.csproj.AssemblyReference.cache
+D:\ERPproject\ERP.Application\obj\Release\net6.0\ERP.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ERPproject\ERP.Application\obj\Release\net6.0\ERP.Application.AssemblyInfoInputs.cache
+D:\ERPproject\ERP.Application\obj\Release\net6.0\ERP.Application.AssemblyInfo.cs
+D:\ERPproject\ERP.Application\obj\Release\net6.0\ERP.Application.csproj.CoreCompileInputs.cache
+D:\ERPproject\ERP.Application\obj\Release\net6.0\ERP.Application.dll
+D:\ERPproject\ERP.Application\obj\Release\net6.0\ref\ERP.Application.dll
+D:\ERPproject\ERP.Application\obj\Release\net6.0\ERP.Application.pdb

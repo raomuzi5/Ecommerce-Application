@@ -1,0 +1,12 @@
+D:\ERPproject\ERP.Infrastructure\bin\Release\net6.0\ERP.Infrastructure.deps.json
+D:\ERPproject\ERP.Infrastructure\bin\Release\net6.0\ERP.Infrastructure.dll
+D:\ERPproject\ERP.Infrastructure\bin\Release\net6.0\ref\ERP.Infrastructure.dll
+D:\ERPproject\ERP.Infrastructure\bin\Release\net6.0\ERP.Infrastructure.pdb
+D:\ERPproject\ERP.Infrastructure\obj\Release\net6.0\ERP.Infrastructure.csproj.AssemblyReference.cache
+D:\ERPproject\ERP.Infrastructure\obj\Release\net6.0\ERP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\ERPproject\ERP.Infrastructure\obj\Release\net6.0\ERP.Infrastructure.AssemblyInfoInputs.cache
+D:\ERPproject\ERP.Infrastructure\obj\Release\net6.0\ERP.Infrastructure.AssemblyInfo.cs
+D:\ERPproject\ERP.Infrastructure\obj\Release\net6.0\ERP.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ERPproject\ERP.Infrastructure\obj\Release\net6.0\ERP.Infrastructure.dll
+D:\ERPproject\ERP.Infrastructure\obj\Release\net6.0\ref\ERP.Infrastructure.dll
+D:\ERPproject\ERP.Infrastructure\obj\Release\net6.0\ERP.Infrastructure.pdb

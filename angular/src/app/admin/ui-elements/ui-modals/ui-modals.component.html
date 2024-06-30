@@ -1,0 +1,59 @@
+<section class="content">
+  <div class="container">
+    <div class="row clearfix">
+      <div class="col-lg-4 col-md-12">
+          <div class="card">
+              <div class="header">
+                  <h2><strong>Modal Default</strong> Size</h2>
+                  <app-card-actions></app-card-actions>
+              </div>
+              <div class="body">
+                  <a href="javascript:void(0)" (click)="openModal(content,'md')">
+                      <img class="img-thumbnail img-fluid" src="assets/images/model1.jpg" alt="User">
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+          <div class="card">
+              <div class="header">
+                  <h2><strong>Modal Large</strong> Size</h2>
+                  <app-card-actions></app-card-actions>
+              </div>
+              <div class="body">
+                  <a href="javascript:void(0)" (click)="openModal(content,'lg')">
+                      <img class="img-thumbnail img-fluid" src="assets/images/model2.jpg" alt="User">
+                  </a>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+          <div class="card">
+              <div class="header">
+                  <h2><strong>Modal Small</strong> Size</h2>
+                  <app-card-actions></app-card-actions>
+              </div>
+              <div class="body">
+                  <a href="javascript:void(0)" (click)="openModal(content,'sm')">
+                      <img class="img-thumbnail img-fluid" src="assets/images/model3.jpg" alt="User">
+                  </a>
+              </div>
+          </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title mt-0">Modal title</h4>
+    </div>
+    <div class="modal-body">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sodales orci ante, sed ornare eros vestibulum ut. Ut accumsan vitae eros sit amet Integer dapibus, mi ac tempor varius, purus nibh mattis erat, vitae porta nunc nisi non tellus. Vivamus mollis ante non massa egestas fringilla. Vestibulum egestas consectetur nunc at ultricies. Morbi quis consectetur nunc.</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-primary" (click)="modal.close('Ok click')">Save Changes</button>
+      <button type="button" class="btn btn-danger" (click)="modal.dismiss('Close click')">Close</button>
+    </div>
+</ng-template>

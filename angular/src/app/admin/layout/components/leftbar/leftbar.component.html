@@ -1,0 +1,229 @@
+<aside id="leftsidebar" class="sidebar {{hmenu}}">
+  <div class="container">
+      <div class="row clearfix">
+          <div class="col-lg-12">
+              <div class="card mb-0">
+                  <div class="body block-header">
+                      <div class="row">
+                          <div class="col-lg-6 col-md-8 col-sm-12">
+                              <h2><a [routerLink]="['dashboard']"></a> Welcome to Riverra</h2>
+                              <ul class="breadcrumb p-l-0 p-b-0 ">
+                                  <li class="breadcrumb-item active" id="dateview">
+                                    {{today | date:'full' }}
+                                  </li>
+                              </ul>
+                          </div>
+                          <div class="col-lg-6 col-md-4 col-sm-12 text-right">
+                            <div class="d-flex justify-content-end top-info">
+                                <a href="#" class="btn btn-link">
+                                    <div class="top-deatil">
+                                        <i class="icon-user"></i><span>37k</span>
+                                    </div>
+                                    <span>New User</span>
+                                </a>
+                                <a href="#" class="btn btn-link">
+                                    <div class="top-deatil">
+                                        <i class="icon-calculator"></i><span>42</span>
+                                    </div>
+                                    <span>Invoices</span>
+                                </a>
+                                <a href="#" class="btn btn-link">
+                                    <div class="top-deatil">
+                                        <i class="icon-calendar"></i><span>150</span>
+                                    </div>
+                                    <span>Schedule</span>
+                                </a>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row clearfix">
+          <div class="col-12">
+              <div class="menu">
+                  <div class="navbar-logo">
+                    <a class="navbar-brand" [routerLink]="['dashboard']">
+                      <img src="assets/images/logo.svg" width="100" alt="Riverra">
+                    </a>
+                  </div>
+                  <ul class="list mb-0">
+                      <li class="header">MAIN</li>
+                      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'dashboard'}">
+                        <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentActiveNav == 'dashboard'}" (click)="changeNavTab('dashboard')">
+                          <i class="icon-speedometer"></i><span>Dashboard</span>
+                        </a>
+                        <ul class="ml-menu" [ngClass]="{'d-none':currentActiveNav != 'dashboard','d-block':currentActiveNav == 'dashboard'}">
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLinkActive="toggled" [routerLinkActiveOptions]="{exact: true}" [routerLink]="['dashboard']">Analytics</a></li>
+                            <li class="second-level" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentSubActiveNav == 'ecommerce'}">
+                              <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentSubActiveNav == 'ecommerce'}" (click)="changesubNavTab('ecommerce')">Ecommerce</a>
+                              <ul class="ml-menu second-level-sub" [ngClass]="{'d-none':currentSubActiveNav != 'ecommerce','d-block':currentSubActiveNav == 'ecommerce'}">
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['dashboard/ecommerce/product-dashboard']">Product Dashboard</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['dashboard/ecommerce/product']">Products</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['dashboard/ecommerce/product-detail']">Product Detail</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['dashboard/ecommerce/product-list']">Product List</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['dashboard/ecommerce/product-add']">Product Add</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['dashboard/ecommerce/product-order']">Orders</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['dashboard/ecommerce/product-cart']">Cart</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['dashboard/ecommerce/product-checkout']">Checkout</a></li>
+                              </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'app'}">
+                          <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentActiveNav == 'app'}" (click)="changeNavTab('app')">
+                            <i class="icon-grid"></i><span>App</span>
+                          </a>
+                          <ul class="ml-menu" [ngClass]="{'d-none':currentActiveNav != 'app','d-block':currentActiveNav == 'app'}">
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/mail-inbox']">Inbox</a></li>
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/app-chat']">Chat</a></li>
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/app-calendar']">Calendar</a></li>
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/file-manager']">File Manager</a></li>
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/contact']">Contact list</a></li>
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/blog-dashboard']">Blog Dashboard</a></li>
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/blog-post']">Blog Post</a></li>
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/blog-list']">Blog List</a></li>
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/blog-grid']">Blog Grid</a></li>
+                            <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['app/blog-detail']">Blog Detail</a></li>
+                          </ul>
+                      </li>
+                      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'component'}">
+                        <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentActiveNav == 'component'}" (click)="changeNavTab('component')">
+                          <i class="icon-folder"></i><span>COMPONENT</span>
+                        </a>
+                        <ul class="ml-menu" [ngClass]="{'d-none':currentActiveNav != 'component','d-block':currentActiveNav == 'component'}">
+                          <li class="second-level" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'ui-elements'}">
+                              <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentSubActiveNav == 'ui-elements'}" (click)="changesubNavTab('ui-elements')"><i class="icon-layers"></i><span>UI
+                              Elements</span></a>
+                              <ul class="ml-menu second-level-sub" [ngClass]="{'d-none':currentSubActiveNav != 'ui-elements','d-block':currentSubActiveNav == 'ui-elements'}">
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/typography']">Typography</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/button']">Button</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/colors']">Colors</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/icon']">Icons</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/bootstrap']">Bootstrap</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/listGroup']">List Group</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/mediaObject']">Media Object</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/modals']">Modals</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/notifications']">Notifications</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/progressbars']">Progress Bars</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/ui-elements/tabs']">Tabs</a></li>
+                              </ul>
+                          </li>
+                          <li class="second-level" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'form'}">
+                            <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentSubActiveNav == 'form'}" (click)="changesubNavTab('form')">
+                              <i class="icon-doc"></i><span>Forms</span>
+                            </a>
+                            <ul class="ml-menu second-level-sub" [ngClass]="{'d-none':currentSubActiveNav != 'form','d-block':currentSubActiveNav == 'form'}">
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/forms/forms-basic']">Basic Elements</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/forms/forms-validation']">Form Validations</a> </li>
+                            </ul>
+                          </li>
+                          <li class="second-level" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'tables'}">
+                            <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentActiveNav == 'tables'}" (click)="changesubNavTab('tables')">
+                              <i class="icon-tag"></i><span>Tables</span>
+                            </a>
+                            <ul class="ml-menu second-level-sub" [ngClass]="{'d-none':currentSubActiveNav != 'tables','d-block':currentSubActiveNav == 'tables'}">
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/table/table-normal']">Normal Tables</a> </li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/table/table-basic']">Basic Tables</a> </li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['component/table/table-advance']">Advance Tables</a></li>
+                            </ul>
+                          </li>
+                          <li class="second-level" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'charts'}">
+                              <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentActiveNav == 'charts'}" (click)="changeNavTab('charts')">
+                                <i class="icon-bar-chart"></i><span>Charts</span>
+                              </a>
+                              <ul class="ml-menu second-level-sub" [ngClass]="{'d-none':currentSubActiveNav != 'charts','d-block':currentSubActiveNav == 'charts'}">
+                                  <li [routerLinkActive]="'active'"><a [routerLink]="['component/charts/echarts']">eCharts</a></li>
+                              </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="header">EXTRA COMPONENTS</li>
+                      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'widgets'}">
+                        <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentActiveNav == 'widgets'}" (click)="changeNavTab('widgets')">
+                          <i class="icon-puzzle"></i><span>Widgets</span>
+                        </a>
+                        <ul class="ml-menu" [ngClass]="{'d-none':currentActiveNav != 'widgets','d-block':currentActiveNav == 'widgets'}">
+                            <li [routerLinkActive]="'active'"><a [routerLink]="['widgets/widgets']">Widgetse</a></li>
+                        </ul>
+                      </li>
+                      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'pages'}">
+                        <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentActiveNav == 'pages'}" (click)="changeNavTab('pages')">
+                          <i class="icon-folder"></i><span>Pages</span>
+                        </a>
+                        <ul class="ml-menu" [ngClass]="{'d-none':currentActiveNav != 'pages','d-block':currentActiveNav == 'pages'}">
+                          <li class="sm_menu_btm second-level" routerLinkActive="active"  [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentSubActiveNav == 'authentication'}">
+                            <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentSubActiveNav == 'authentication'}" (click)="changesubNavTab('authentication')">
+                                <i class="zmdi zmdi-lock"></i><span>Authentication</span>
+                            </a>
+                            <ul class="ml-menu second-level-sub" [ngClass]="{'d-none':currentSubActiveNav != 'authentication','d-block':currentSubActiveNav == 'authentication'}">
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/authentication/login']">Sign In</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/authentication/signup']">Sign Up</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/authentication/forgot-password']">Forgot Password</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/authentication/page-404']">Page 404</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/authentication/page-403']">Page 403</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/authentication/page-500']">Page 500</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/authentication/page-503']">Page 503</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/authentication/page-offline']">Page Offline</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/authentication/page-locked']">Locked Screen</a></li>
+                            </ul>
+                          </li>
+                          <li class="sm_menu_btm second-level" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentSubActiveNav == 'sample-pages'}">
+                              <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentSubActiveNav == 'sample-pages'}" (click)="changesubNavTab('sample-pages')">
+                                  <i class="zmdi zmdi-copy"></i><span>Sample Pages</span>
+                              </a>
+                              <ul class="ml-menu second-level-sub" [ngClass]="{'d-none':currentSubActiveNav != 'sample-pages','d-block':currentSubActiveNav == 'sample-pages'}">
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/blank-page']">Blank Page</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/team-board']">Teams Board</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/projects-list']">Projects List</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/image-gallery']">Image Gallery</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/profile']">Profile</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/timeline']">Timeline</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/pricing']">Pricing</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/invoices']">Invoices</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/faq']">FAQs</a></li>
+                                <li [routerLinkActive]="'active'"><a [routerLink]="['pages/sample-pages/search-results']">Search Results</a></li>
+                              </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [ngClass]="{'open':currentActiveMenu == 'maps'}">
+                        <a href="javascript:void(0);" class="menu-toggle" [ngClass]="{'toggled':currentActiveNav == 'maps'}" (click)="changeNavTab('maps')">
+                          <i class="icon-map"></i><span>Maps</span>
+                        </a>
+                        <ul class="ml-menu" [ngClass]="{'d-none':currentActiveNav != 'maps','d-block':currentActiveNav == 'maps'}">
+                            <li [routerLinkActive]="'active'"><a [routerLink]="['maps/leaflet']">Leaflet Map</a></li>
+                        </ul>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-12">
+              <ul class="nav navbar-nav top-icon">
+                  <li class="dropdown app_menu hidden-sm " ngbDropdown>
+                      <a href="javascript:void(0);" class="dropdown-toggle"
+                          ngbDropdownToggle><i class="icon-grid"></i></a>
+                      <ul class="dropdown-menu" ngbDropdownMenu>
+                            <li><a [routerLink]="['app/mail-inbox']"><i class="fa fa-envelope"></i><span>Mail</span></a>
+                            </li>
+                            <li><a [routerLink]="['app/contact']"><i class="fa fa-id-card"></i><span>Contacts</span></a>
+                            </li>
+                            <li><a [routerLink]="['app/app-chat']"><i class="fa fa-comments"></i><span>Chat</span></a></li>
+                            <li><a [routerLink]="['sample-pages/team-board']"><i class="fa fa-users"></i><span>Teams</span></a>
+                            </li>
+                            <li><a [routerLink]="['sample-pages/projects-list']"><i
+                                        class="fa fa-list-alt"></i><span>Projects</span></a></li>
+                            <li><a [routerLink]="['app/app-calendar']"><i class="fa fa-calendar"></i><span>Calendar</span></a>
+                            </li>
+                      </ul>
+                  </li>
+                  <li class="chat-side"><a [routerLink]="['app/app-chat']"><i class="icon-speech"></i></a></li>
+                  <li class="button-block"><button
+                          class="btn btn-primary btn-round float-right hidden-xs m-l-10">Create
+                          New</button></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</aside>

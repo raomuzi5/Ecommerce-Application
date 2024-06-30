@@ -1,0 +1,361 @@
+
+<section class="content blog-page">
+  <div class="container">
+      <div class="row clearfix">
+          <div class="col-lg-3 col-md-6">
+              <sa-widget-colored-chart-tile [chartOptions]="totalLeads" [title]="'Total Leads'" [value]="2048" [background]="'l-blue'"></sa-widget-colored-chart-tile>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <sa-widget-colored-chart-tile [chartOptions]="totalConnections" [title]="'Total Connections'" [value]="521"
+                  [background]="'l-parpl'"></sa-widget-colored-chart-tile>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <sa-widget-colored-chart-tile [chartOptions]="articals" [title]="'Articles'" [value]="73"
+                  [background]="'l-seagreen'"></sa-widget-colored-chart-tile>
+          </div>
+          <div class="col-lg-3 col-md-6">
+              <sa-widget-colored-chart-tile [chartOptions]="categories" [title]="'Categories'" [value]="15" [background]="'l-pink'">
+              </sa-widget-colored-chart-tile>
+          </div>
+      </div><!-- row end -->
+      <div class="row clearfix">
+        <div class="col-lg-4 col-md-12">
+            <div class="card single_post">
+                <div class="header">
+                    <h2><strong>Latest</strong> Post</h2>
+                    <ul class="header-dropdown">
+                            <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more"></i> </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="javascript:void(0);">Edit</a></li>
+                                    <li><a href="javascript:void(0);">Delete</a></li>
+                                    <li><a href="javascript:void(0);">Report</a></li>
+                                </ul>
+                            </li>
+                            <li class="remove">
+                                <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="body">
+                    <h3 class="m-t-0 m-b-5"><a [routerLink]="['../blog-detail']">Apple Introduces Search Ads Basic</a></h3>
+                    <ul class="meta">
+                        <li><a href="javascript:void(0);"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
+                        <li><a href="javascript:void(0);"><i class="zmdi zmdi-label col-amber"></i>Technology</a></li>
+                        <li><a href="javascript:void(0);"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <div class="img-post m-b-15">
+                        <img src="assets/images/blog/blog-page-4.jpg" alt="Awesome Image">
+                        <div class="social_share">
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-facebook"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-twitter"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-instagram"></i></button>
+                        </div>
+                    </div>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+                    <a [routerLink]="['../blog-detail']" title="read more" class="btn btn-round btn-info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="card single_post">
+                <div class="header">
+                    <h2><strong>Popular</strong> Post</h2>
+                    <ul class="header-dropdown">
+                            <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more"></i> </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="javascript:void(0);">Edit</a></li>
+                                    <li><a href="javascript:void(0);">Delete</a></li>
+                                    <li><a href="javascript:void(0);">Report</a></li>
+                                </ul>
+                            </li>
+                            <li class="remove">
+                                <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="body">
+                    <h3 class="m-t-0 m-b-5"><a [routerLink]="['../blog-detail']">Apple Introduces Search Ads Basic</a></h3>
+                    <ul class="meta">
+                        <li><a href="javascript:void(0);"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
+                        <li><a href="javascript:void(0);"><i class="zmdi zmdi-label col-amber"></i>Technology</a></li>
+                        <li><a href="javascript:void(0);"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <div class="img-post m-b-15">
+                        <img src="assets/images/blog/blog-page-3.jpg" alt="Awesome Image">
+                        <div class="social_share">
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-facebook"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-twitter"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-instagram"></i></button>
+                        </div>
+                    </div>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+                    <a [routerLink]="['../blog-detail']" title="read more" class="btn btn-round btn-info">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="card single_post">
+                <div class="header">
+                    <h2><strong>Most</strong> View</h2>
+                    <ul class="header-dropdown">
+                            <li class="dropdown"> <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="zmdi zmdi-more"></i> </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li><a href="javascript:void(0);">Edit</a></li>
+                                    <li><a href="javascript:void(0);">Delete</a></li>
+                                    <li><a href="javascript:void(0);">Report</a></li>
+                                </ul>
+                            </li>
+                            <li class="remove">
+                                <a role="button" class="boxs-close"><i class="zmdi zmdi-close"></i></a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="body">
+                    <h3 class="m-t-0 m-b-5"><a [routerLink]="['../blog-detail']">Apple Introduces Search Ads Basic</a></h3>
+                    <ul class="meta">
+                        <li><a href="javascript:void(0);"><i class="zmdi zmdi-account col-blue"></i>Posted By: John Smith</a></li>
+                        <li><a href="javascript:void(0);"><i class="zmdi zmdi-label col-amber"></i>Technology</a></li>
+                        <li><a href="javascript:void(0);"><i class="zmdi zmdi-comment-text col-blue"></i>Comments: 3</a></li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <div class="img-post m-b-15">
+                        <img src="assets/images/blog/blog-page-2.jpg" alt="Awesome Image">
+                        <div class="social_share">
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-facebook"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-twitter"></i></button>
+                            <button class="btn btn-primary btn-icon btn-icon-mini btn-round"><i class="zmdi zmdi-instagram"></i></button>
+                        </div>
+                    </div>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal</p>
+                    <a [routerLink]="['../blog-detail']" title="read more" class="btn btn-round btn-info">Read More</a>
+                </div>
+            </div>
+        </div>
+      </div><!-- row end -->
+      <div class="row clearfix">
+          <div class="col-lg-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Popular</strong> Categories</h2>
+                       <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div echarts [options]="earningChartOption" style="height:250px;"></div>
+                  </div>
+              </div>
+          </div>
+      </div><!-- row end -->
+      <div class="row clearfix">
+          <div class="col-lg-7 col-md-12">
+              <div class="card visitors-map">
+                  <div class="header">
+                      <h2><strong>Visitors</strong> Statistics</h2>
+                       <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div class="row">
+                          <div class="col-xl-12 col-lg-12 col-md-12">
+                              <div class="table-responsive">
+                                  <table class="table table-hover m-b-0">
+                                      <thead>
+                                          <tr>
+                                              <th>Contrary</th>
+                                              <th>2016</th>
+                                              <th>2017</th>
+                                              <th>Change</th>
+                                          </tr>
+                                      </thead>
+                                      <tbody>
+                                          <tr>
+                                              <td>USA</td>
+                                              <td>2,009</td>
+                                              <td>3,591</td>
+                                              <td>7.01% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                          </tr>
+                                          <tr>
+                                              <td>India</td>
+                                              <td>1,129</td>
+                                              <td>1,361</td>
+                                              <td>3.01% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                          </tr>
+                                          <tr>
+                                              <td>Canada</td>
+                                              <td>2,009</td>
+                                              <td>2,901</td>
+                                              <td>9.01% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                          </tr>
+                                          <tr>
+                                              <td>Australia</td>
+                                              <td>954</td>
+                                              <td>901</td>
+                                              <td>5.71% <i class="zmdi zmdi-trending-down text-warning"></i></td>
+                                          </tr>
+                                          <tr>
+                                              <td>Other</td>
+                                              <td>4,236</td>
+                                              <td>4,591</td>
+                                              <td>9.15% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                          </tr>
+                                      </tbody>
+                                  </table>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-5 col-md-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>USA</strong> Categories Statistics</h2>
+                       <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div class="table-responsive">
+                          <table class="table table-hover m-b-0">
+                              <thead>
+                                  <tr>
+                                      <th>Categories</th>
+                                      <th>2016</th>
+                                      <th>2017</th>
+                                      <th>Change</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td>Web Design</td>
+                                      <td>2,009</td>
+                                      <td>3,591</td>
+                                      <td>7.01% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                  </tr>
+                                  <tr>
+                                      <td>Photography</td>
+                                      <td>1,129</td>
+                                      <td>1,361</td>
+                                      <td>3.01% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                  </tr>
+                                  <tr>
+                                      <td>Technology</td>
+                                      <td>2,009</td>
+                                      <td>2,901</td>
+                                      <td>9.01% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                  </tr>
+                                  <tr>
+                                      <td>Lifestyle</td>
+                                      <td>954</td>
+                                      <td>901</td>
+                                      <td>5.71% <i class="zmdi zmdi-trending-down text-warning"></i></td>
+                                  </tr>
+                                  <tr>
+                                      <td>Sports</td>
+                                      <td>4,236</td>
+                                      <td>4,591</td>
+                                      <td>9.15% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div><!-- row end -->
+      <div class="row clearfix">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Social</strong> Media</h2>
+                       <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div class="table-responsive social_media_table">
+                          <table class="table table-hover">
+                              <thead>
+                                  <tr>
+                                      <th>Media</th>
+                                      <th>Name</th>
+                                      <th>Like</th>
+                                      <th>Comments</th>
+                                      <th>Share</th>
+                                      <th>Members</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <td><span class="social_icon linkedin"><i class="zmdi zmdi-linkedin"></i></span>
+                                      </td>
+                                      <td><span class="list-name">Linked In</span>
+                                          <span class="text-muted">Florida, United States</span>
+                                      </td>
+                                      <td>19K</td>
+                                      <td>14K</td>
+                                      <td>10K</td>
+                                      <td>
+                                          <span class="badge badge-success">2341</span>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td><span class="social_icon twitter-table"><i class="zmdi zmdi-twitter"></i></span>
+                                      </td>
+                                      <td><span class="list-name">Twitter</span>
+                                          <span class="text-muted">Arkansas, United States</span>
+                                      </td>
+                                      <td>7K</td>
+                                      <td>11K</td>
+                                      <td>21K</td>
+                                      <td>
+                                          <span class="badge badge-success">952</span>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td><span class="social_icon facebook"><i class="zmdi zmdi-facebook"></i></span>
+                                      </td>
+                                      <td><span class="list-name">Facebook</span>
+                                          <span class="text-muted">Illunois, United States</span>
+                                      </td>
+                                      <td>15K</td>
+                                      <td>18K</td>
+                                      <td>8K</td>
+                                      <td>
+                                          <span class="badge badge-success">6127</span>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td><span class="social_icon google"><i class="zmdi zmdi-google-plus"></i></span>
+                                      </td>
+                                      <td><span class="list-name">Google Plus</span>
+                                          <span class="text-muted">Arizona, United States</span>
+                                      </td>
+                                      <td>15K</td>
+                                      <td>18K</td>
+                                      <td>154</td>
+                                      <td>
+                                          <span class="badge badge-success">325</span>
+                                      </td>
+                                  </tr>
+                                  <tr>
+                                      <td><span class="social_icon youtube"><i class="zmdi zmdi-youtube-play"></i></span>
+                                      </td>
+                                      <td><span class="list-name">YouTube</span>
+                                          <span class="text-muted">Alaska, United States</span>
+                                      </td>
+                                      <td>15K</td>
+                                      <td>18K</td>
+                                      <td>200</td>
+                                      <td>
+                                          <span class="badge badge-success">160</span>
+                                      </td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div><!-- row end -->
+  </div>
+</section>

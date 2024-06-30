@@ -1,0 +1,15 @@
+D:\ERPproject\ERP.Application\bin\Debug\net6.0\ERP.Application.deps.json
+D:\ERPproject\ERP.Application\bin\Debug\net6.0\ERP.Application.dll
+D:\ERPproject\ERP.Application\bin\Debug\net6.0\ERP.Application.pdb
+D:\ERPproject\ERP.Application\bin\Debug\net6.0\ERP.Domain.dll
+D:\ERPproject\ERP.Application\bin\Debug\net6.0\ERP.Domain.pdb
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\ERP.Application.csproj.AssemblyReference.cache
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\ERP.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\ERP.Application.AssemblyInfoInputs.cache
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\ERP.Application.AssemblyInfo.cs
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\ERP.Application.csproj.CoreCompileInputs.cache
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\ERP.Appl.DD782D7E.Up2Date
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\ERP.Application.dll
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\refint\ERP.Application.dll
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\ERP.Application.pdb
+D:\ERPproject\ERP.Application\obj\Debug\net6.0\ref\ERP.Application.dll

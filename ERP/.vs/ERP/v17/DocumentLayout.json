@@ -1,0 +1,940 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ERPproject\\ERP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\validation\\validationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\validation\\genericvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\commandhandlers\\attachmentcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\commands\\productcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\commands\\attachmentcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:controllers\\attachmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\poweshellscripts\\addmigrations.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:poweshellscripts\\addmigrations.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015E5D2F-CCE0-4902-ABF4-DBA566325E53}|..\\ERP.Infrastructure\\ERP.Infrastructure.csproj|d:\\erpproject\\erp.infrastructure\\repositories\\attachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51333330-03C5-46C7-858A-40F29CC3BE33}|..\\ERP.Domain\\ERP.Domain.csproj|d:\\erpproject\\erp.domain\\attachment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015E5D2F-CCE0-4902-ABF4-DBA566325E53}|..\\ERP.Infrastructure\\ERP.Infrastructure.csproj|d:\\erpproject\\erp.infrastructure\\services\\localfilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015E5D2F-CCE0-4902-ABF4-DBA566325E53}|..\\ERP.Infrastructure\\ERP.Infrastructure.csproj|d:\\erpproject\\erp.infrastructure\\repositories\\repositoryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\erp.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\erp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:erp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\erp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:erp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\handlersregistration\\commandhandlersregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\queryhandlers\\attachmentqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\handlersregistration\\queryhandlersregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\queryhandlers\\referencetypequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\queryhandlers\\productqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\controllers\\referencetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:controllers\\referencetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\commandhandlers\\productcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DD791F5-1BC0-497A-AF05-095D0ABE9AF9}|..\\ERP.Persistence\\ERP.Persistence.csproj|d:\\erpproject\\erp.persistence\\migrations\\20240601185941_new.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51333330-03C5-46C7-858A-40F29CC3BE33}|..\\ERP.Domain\\ERP.Domain.csproj|d:\\erpproject\\erp.domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\dtos\\attachmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\queries\\attachmentquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\commandhandlers\\employeecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51333330-03C5-46C7-858A-40F29CC3BE33}|..\\ERP.Domain\\ERP.Domain.csproj|d:\\erpproject\\erp.domain\\irepositories\\iattachmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51333330-03C5-46C7-858A-40F29CC3BE33}|..\\ERP.Domain\\ERP.Domain.csproj|d:\\erpproject\\erp.domain\\iservices\\ifilestorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015E5D2F-CCE0-4902-ABF4-DBA566325E53}|..\\ERP.Infrastructure\\ERP.Infrastructure.csproj|d:\\erpproject\\erp.infrastructure\\repositories\\referencetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51333330-03C5-46C7-858A-40F29CC3BE33}|..\\ERP.Domain\\ERP.Domain.csproj|d:\\erpproject\\erp.domain\\irepositories\\ireferencetyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DD791F5-1BC0-497A-AF05-095D0ABE9AF9}|..\\ERP.Persistence\\ERP.Persistence.csproj|d:\\erpproject\\erp.persistence\\hrmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\commandhandlers\\referencetypecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\commands\\referencetypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\queries\\referencetypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51333330-03C5-46C7-858A-40F29CC3BE33}|..\\ERP.Domain\\ERP.Domain.csproj|d:\\erpproject\\erp.domain\\referencetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\dtos\\referencetypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\queries\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\poweshellscripts\\updatedatabase.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:poweshellscripts\\updatedatabase.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DD791F5-1BC0-497A-AF05-095D0ABE9AF9}|..\\ERP.Persistence\\ERP.Persistence.csproj|d:\\erpproject\\erp.persistence\\erp.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\queryhandlers\\employeequeryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\queries\\employeequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\commands\\employeecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46E259E2-954E-40C8-A5C1-6F1E3EE31AD7}|..\\ERP.Application\\ERP.Application.csproj|d:\\erpproject\\erp.application\\common\\exceptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015E5D2F-CCE0-4902-ABF4-DBA566325E53}|..\\ERP.Infrastructure\\ERP.Infrastructure.csproj|d:\\erpproject\\erp.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51333330-03C5-46C7-858A-40F29CC3BE33}|..\\ERP.Domain\\ERP.Domain.csproj|d:\\erpproject\\erp.domain\\irepositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51333330-03C5-46C7-858A-40F29CC3BE33}|..\\ERP.Domain\\ERP.Domain.csproj|d:\\erpproject\\erp.domain\\irepositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{015E5D2F-CCE0-4902-ABF4-DBA566325E53}|..\\ERP.Infrastructure\\ERP.Infrastructure.csproj|d:\\erpproject\\erp.infrastructure\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{51333330-03C5-46C7-858A-40F29CC3BE33}|..\\ERP.Domain\\ERP.Domain.csproj|d:\\erpproject\\erp.domain\\irepositories\\imarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|d:\\erpproject\\erp\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3696D19C-4AA5-4DAC-B09A-1E487FCBF6A8}|ERP.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ERPproject\\ERP\\Domain\\obj\\ERP.Domain.csproj.EntityFrameworkCore.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Domain\\obj\\ERP.Domain.csproj.EntityFrameworkCore.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ERPproject\\ERP\\ERP.Persistence\\obj\\ERP.Persistence.csproj.EntityFrameworkCore.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERP.Persistence\\obj\\ERP.Persistence.csproj.EntityFrameworkCore.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ERPproject\\ERP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T16:16:56.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AttachmentCommandHandler.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\CommandHandlers\\AttachmentCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\CommandHandlers\\AttachmentCommandHandler.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\CommandHandlers\\AttachmentCommandHandler.cs",
+              "RelativeToolTip": "..\\ERP.Application\\CommandHandlers\\AttachmentCommandHandler.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwEUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:18:16.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductCommand.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Commands\\ProductCommand.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Commands\\ProductCommand.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Commands\\ProductCommand.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Commands\\ProductCommand.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAEgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:03:02.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GenericValidator.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Validation\\GenericValidator.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Validation\\GenericValidator.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Validation\\GenericValidator.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Validation\\GenericValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:18:21.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidationServices.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Validation\\ValidationServices.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Validation\\ValidationServices.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Validation\\ValidationServices.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Validation\\ValidationServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:21:38.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AttachmentCommand.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Commands\\AttachmentCommand.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Commands\\AttachmentCommand.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Commands\\AttachmentCommand.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Commands\\AttachmentCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:16:54.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttachmentController.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\Controllers\\AttachmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AttachmentController.cs",
+              "ToolTip": "D:\\ERPproject\\ERP\\Controllers\\AttachmentController.cs",
+              "RelativeToolTip": "Controllers\\AttachmentController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAApwCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:24:19.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LocalFileStorageService.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Infrastructure\\Services\\LocalFileStorageService.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Infrastructure\\Services\\LocalFileStorageService.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Infrastructure\\Services\\LocalFileStorageService.cs",
+              "RelativeToolTip": "..\\ERP.Infrastructure\\Services\\LocalFileStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:10:03.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddMigrations.ps1",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\PoweShellScripts\\AddMigrations.ps1",
+              "RelativeDocumentMoniker": "PoweShellScripts\\AddMigrations.ps1",
+              "ToolTip": "D:\\ERPproject\\ERP\\PoweShellScripts\\AddMigrations.ps1",
+              "RelativeToolTip": "PoweShellScripts\\AddMigrations.ps1",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKISURBVDhPlVLdS1RBFP/dux/JrppKUVoISrRSbVGEBq4Z5ZPRk39A9FYPUQ89CUEv2WOC\u002BFRB9QcUPoQkBItUkAa\u002BpNZ\u002BGO2u3nbdVe/evevuzsydZmY/shehM/fMuefMnN/8zuFoEBIOh7m0\u002BwnnnPX39z/0\u002B/1PaiEVVFYCUEI4pYQzRpU6DlMqY9IuLCzwubk5llhP3lFJNdHlJoHkUl8NtG51XV0BIQShUEj/vrw6GY/Hb6qgEHXqOM6\u002BIFJs28b8/Ly86xUAL2vhvwzEVgXZ8984EzIycg1ng0H0BQLKr4tqoqiND18egqYJV\u002BjMu/fo7OpSvk0YvG4dLvFUhXI44j7hGtKGwW\u002BN3agW2ChB6PqGAV9bB1oCQUxveIHOHkwl3VjxdyN3vA/rh0/A1X0ShTJRjysAxphkrQAi0Rjgb8VyWUfcpoDLg/uXevDoQwTPI9t4Y5QQyxZgJBOkAbCXQc4uw\u002BQexPJlME3H7dkVdDV78HbsHJZWk1jL5pHezCG9kdr8B0BSkCzyxTLSjgcRqwKnrRWZHRuO7sLH1DZ2ShTRtAlqbsHKGJ8bAJTSBoMCZfhB3JiJb2EzmkDs7jBGX33Bs8VfOAgGZzsPapnIb\u002BVmGwD1ZEnhN/Xia7YEtruLIy1NuPJ6UXV\u002B6voZPBjshVe0Lp/NwNfanpK5brmZpinnRwEcE0n3Ojk8onkmaUGlVEKxQhBeXILf58Pj0258\u002B2TgQPuhhExRDCzLqvZArN5mDReabARdBYSaihjylzCgZREs/MRoB8HRbAzcyiGTSkRlrmJQLBZVCZpYVwcHlJUDVZ0r6dV9DafOX8Sa8RQvpieZzFXDMD4\u002BXp3X/5CJiQmRC/wBUOeA8MehIQsAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-06-01T15:30:57.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AttachmentRepository.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\AttachmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Infrastructure\\Repositories\\AttachmentRepository.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\AttachmentRepository.cs",
+              "RelativeToolTip": "..\\ERP.Infrastructure\\Repositories\\AttachmentRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:22:05.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Attachment.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Domain\\Attachment.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Domain\\Attachment.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Domain\\Attachment.cs",
+              "RelativeToolTip": "..\\ERP.Domain\\Attachment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:15:55.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ERPproject\\ERP\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAzwCYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:42:53.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\ERPproject\\ERP\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-31T16:33:42.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RepositoryRegistration.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\RepositoryRegistration.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Infrastructure\\Repositories\\RepositoryRegistration.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\RepositoryRegistration.cs",
+              "RelativeToolTip": "..\\ERP.Infrastructure\\Repositories\\RepositoryRegistration.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T18:26:49.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Config.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Config.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Config.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Config.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Config.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T21:21:58.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ERP.Application.csproj",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\ERP.Application.csproj",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\ERP.Application.csproj",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\ERP.Application.csproj",
+              "RelativeToolTip": "..\\ERP.Application\\ERP.Application.csproj",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-06T21:41:33.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ERP.csproj",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\ERP.csproj",
+              "RelativeDocumentMoniker": "ERP.csproj",
+              "ToolTip": "D:\\ERPproject\\ERP\\ERP.csproj",
+              "RelativeToolTip": "ERP.csproj",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAIwDIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-31T16:35:03.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ERP",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\ERP.csproj",
+              "RelativeDocumentMoniker": "ERP.csproj",
+              "ToolTip": "D:\\ERPproject\\ERP\\ERP.csproj",
+              "RelativeToolTip": "ERP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-31T16:30:01.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\ERPproject\\ERP\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-31T16:33:39.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CommandHandlersRegistration.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\HandlersRegistration\\CommandHandlersRegistration.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\HandlersRegistration\\CommandHandlersRegistration.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\HandlersRegistration\\CommandHandlersRegistration.cs",
+              "RelativeToolTip": "..\\ERP.Application\\HandlersRegistration\\CommandHandlersRegistration.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAWwB4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T18:25:13.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AttachmentQueryHandler.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\QueryHandlers\\AttachmentQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\QueryHandlers\\AttachmentQueryHandler.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\QueryHandlers\\AttachmentQueryHandler.cs",
+              "RelativeToolTip": "..\\ERP.Application\\QueryHandlers\\AttachmentQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:27:59.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "QueryHandlersRegistration.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\HandlersRegistration\\QueryHandlersRegistration.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\HandlersRegistration\\QueryHandlersRegistration.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\HandlersRegistration\\QueryHandlersRegistration.cs",
+              "RelativeToolTip": "..\\ERP.Application\\HandlersRegistration\\QueryHandlersRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T18:27:28.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReferenceTypeQueryHandler.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\QueryHandlers\\ReferenceTypeQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\QueryHandlers\\ReferenceTypeQueryHandler.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\QueryHandlers\\ReferenceTypeQueryHandler.cs",
+              "RelativeToolTip": "..\\ERP.Application\\QueryHandlers\\ReferenceTypeQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:44:29.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ProductQueryHandler.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\QueryHandlers\\ProductQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\QueryHandlers\\ProductQueryHandler.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\QueryHandlers\\ProductQueryHandler.cs",
+              "RelativeToolTip": "..\\ERP.Application\\QueryHandlers\\ProductQueryHandler.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAABQwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:53:57.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "..\\ERP.Application\\DTOs\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T14:18:06.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReferenceTypeController.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\Controllers\\ReferenceTypeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReferenceTypeController.cs",
+              "ToolTip": "D:\\ERPproject\\ERP\\Controllers\\ReferenceTypeController.cs",
+              "RelativeToolTip": "Controllers\\ReferenceTypeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:40:48.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ProductCommandHandler.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\CommandHandlers\\ProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\CommandHandlers\\ProductCommandHandler.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\CommandHandlers\\ProductCommandHandler.cs",
+              "RelativeToolTip": "..\\ERP.Application\\CommandHandlers\\ProductCommandHandler.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAABQwEYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:02:20.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240601185941_New.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Persistence\\Migrations\\20240601185941_New.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Persistence\\Migrations\\20240601185941_New.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Persistence\\Migrations\\20240601185941_New.cs",
+              "RelativeToolTip": "..\\ERP.Persistence\\Migrations\\20240601185941_New.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAIBJwFIAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T19:00:06.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Domain\\Product.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Domain\\Product.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Domain\\Product.cs",
+              "RelativeToolTip": "..\\ERP.Domain\\Product.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:01:12.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AttachmentDto.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\DTOs\\AttachmentDto.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\DTOs\\AttachmentDto.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\DTOs\\AttachmentDto.cs",
+              "RelativeToolTip": "..\\ERP.Application\\DTOs\\AttachmentDto.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwBEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:19:57.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AttachmentQuery.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Queries\\AttachmentQuery.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Queries\\AttachmentQuery.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Queries\\AttachmentQuery.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Queries\\AttachmentQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:19:29.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EmployeeCommandHandler.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\CommandHandlers\\EmployeeCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\CommandHandlers\\EmployeeCommandHandler.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\CommandHandlers\\EmployeeCommandHandler.cs",
+              "RelativeToolTip": "..\\ERP.Application\\CommandHandlers\\EmployeeCommandHandler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwEIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T17:03:43.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IAttachmentRepository.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IAttachmentRepository.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Domain\\IRepositories\\IAttachmentRepository.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IAttachmentRepository.cs",
+              "RelativeToolTip": "..\\ERP.Domain\\IRepositories\\IAttachmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:31:33.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IFileStorageService.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Domain\\IServices\\IFileStorageService.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Domain\\IServices\\IFileStorageService.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Domain\\IServices\\IFileStorageService.cs",
+              "RelativeToolTip": "..\\ERP.Domain\\IServices\\IFileStorageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:06:12.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReferenceTypeRepository.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\ReferenceTypeRepository.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Infrastructure\\Repositories\\ReferenceTypeRepository.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\ReferenceTypeRepository.cs",
+              "RelativeToolTip": "..\\ERP.Infrastructure\\Repositories\\ReferenceTypeRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAApwAwAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:43:23.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IReferenceTypeRepository.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IReferenceTypeRepository.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Domain\\IRepositories\\IReferenceTypeRepository.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IReferenceTypeRepository.cs",
+              "RelativeToolTip": "..\\ERP.Domain\\IRepositories\\IReferenceTypeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:43:51.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HRMSContext.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Persistence\\HRMSContext.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Persistence\\HRMSContext.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Persistence\\HRMSContext.cs",
+              "RelativeToolTip": "..\\ERP.Persistence\\HRMSContext.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAiwCAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:09:02.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ReferenceTypeCommandHandler.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\CommandHandlers\\ReferenceTypeCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\CommandHandlers\\ReferenceTypeCommandHandler.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\CommandHandlers\\ReferenceTypeCommandHandler.cs",
+              "RelativeToolTip": "..\\ERP.Application\\CommandHandlers\\ReferenceTypeCommandHandler.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowCYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:50:23.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ReferenceTypeCommand.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Commands\\ReferenceTypeCommand.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Commands\\ReferenceTypeCommand.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Commands\\ReferenceTypeCommand.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Commands\\ReferenceTypeCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:46:52.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ReferenceTypeQuery.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Queries\\ReferenceTypeQuery.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Queries\\ReferenceTypeQuery.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Queries\\ReferenceTypeQuery.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Queries\\ReferenceTypeQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:45:44.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ReferenceType.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Domain\\ReferenceType.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Domain\\ReferenceType.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Domain\\ReferenceType.cs",
+              "RelativeToolTip": "..\\ERP.Domain\\ReferenceType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:49:01.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ReferenceTypeDto.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\DTOs\\ReferenceTypeDto.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\DTOs\\ReferenceTypeDto.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\DTOs\\ReferenceTypeDto.cs",
+              "RelativeToolTip": "..\\ERP.Application\\DTOs\\ReferenceTypeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:52:11.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "GetProductsQuery.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Queries\\GetProductsQuery.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Queries\\GetProductsQuery.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Queries\\GetProductsQuery.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Queries\\GetProductsQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:52:57.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateDatabase.ps1",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\PoweShellScripts\\UpdateDatabase.ps1",
+              "RelativeDocumentMoniker": "PoweShellScripts\\UpdateDatabase.ps1",
+              "ToolTip": "D:\\ERPproject\\ERP\\PoweShellScripts\\UpdateDatabase.ps1",
+              "RelativeToolTip": "PoweShellScripts\\UpdateDatabase.ps1",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKISURBVDhPlVLdS1RBFP/dux/JrppKUVoISrRSbVGEBq4Z5ZPRk39A9FYPUQ89CUEv2WOC\u002BFRB9QcUPoQkBItUkAa\u002BpNZ\u002BGO2u3nbdVe/evevuzsydZmY/shehM/fMuefMnN/8zuFoEBIOh7m0\u002BwnnnPX39z/0\u002B/1PaiEVVFYCUEI4pYQzRpU6DlMqY9IuLCzwubk5llhP3lFJNdHlJoHkUl8NtG51XV0BIQShUEj/vrw6GY/Hb6qgEHXqOM6\u002BIFJs28b8/Ly86xUAL2vhvwzEVgXZ8984EzIycg1ng0H0BQLKr4tqoqiND18egqYJV\u002BjMu/fo7OpSvk0YvG4dLvFUhXI44j7hGtKGwW\u002BN3agW2ChB6PqGAV9bB1oCQUxveIHOHkwl3VjxdyN3vA/rh0/A1X0ShTJRjysAxphkrQAi0Rjgb8VyWUfcpoDLg/uXevDoQwTPI9t4Y5QQyxZgJBOkAbCXQc4uw\u002BQexPJlME3H7dkVdDV78HbsHJZWk1jL5pHezCG9kdr8B0BSkCzyxTLSjgcRqwKnrRWZHRuO7sLH1DZ2ShTRtAlqbsHKGJ8bAJTSBoMCZfhB3JiJb2EzmkDs7jBGX33Bs8VfOAgGZzsPapnIb\u002BVmGwD1ZEnhN/Xia7YEtruLIy1NuPJ6UXV\u002B6voZPBjshVe0Lp/NwNfanpK5brmZpinnRwEcE0n3Ojk8onkmaUGlVEKxQhBeXILf58Pj0258\u002B2TgQPuhhExRDCzLqvZArN5mDReabARdBYSaihjylzCgZREs/MRoB8HRbAzcyiGTSkRlrmJQLBZVCZpYVwcHlJUDVZ0r6dV9DafOX8Sa8RQvpieZzFXDMD4\u002BXp3X/5CJiQmRC/wBUOeA8MehIQsAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-06-01T15:33:07.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ERP.Persistence.csproj.EntityFrameworkCore.targets",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\ERP.Persistence\\obj\\ERP.Persistence.csproj.EntityFrameworkCore.targets",
+              "RelativeDocumentMoniker": "ERP.Persistence\\obj\\ERP.Persistence.csproj.EntityFrameworkCore.targets",
+              "ToolTip": "D:\\ERPproject\\ERP\\ERP.Persistence\\obj\\ERP.Persistence.csproj.EntityFrameworkCore.targets",
+              "RelativeToolTip": "ERP.Persistence\\obj\\ERP.Persistence.csproj.EntityFrameworkCore.targets",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-01T15:17:08.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ERP.Persistence.csproj",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Persistence\\ERP.Persistence.csproj",
+              "RelativeDocumentMoniker": "..\\ERP.Persistence\\ERP.Persistence.csproj",
+              "ToolTip": "D:\\ERPproject\\ERP.Persistence\\ERP.Persistence.csproj",
+              "RelativeToolTip": "..\\ERP.Persistence\\ERP.Persistence.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-01T14:33:38.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EmployeeDto.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\DTOs\\EmployeeDto.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\DTOs\\EmployeeDto.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\DTOs\\EmployeeDto.cs",
+              "RelativeToolTip": "..\\ERP.Application\\DTOs\\EmployeeDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAowAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T17:29:53.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "EmployeeQueryHandler.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\QueryHandlers\\EmployeeQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\QueryHandlers\\EmployeeQueryHandler.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\QueryHandlers\\EmployeeQueryHandler.cs",
+              "RelativeToolTip": "..\\ERP.Application\\QueryHandlers\\EmployeeQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T16:37:10.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "EmployeeQuery.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Queries\\EmployeeQuery.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Queries\\EmployeeQuery.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Queries\\EmployeeQuery.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Queries\\EmployeeQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T17:03:54.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "EmployeeCommand.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Commands\\EmployeeCommand.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Commands\\EmployeeCommand.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Commands\\EmployeeCommand.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Commands\\EmployeeCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T17:30:08.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Exceptions.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Application\\Common\\Exceptions.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Application\\Common\\Exceptions.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Application\\Common\\Exceptions.cs",
+              "RelativeToolTip": "..\\ERP.Application\\Common\\Exceptions.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:57:40.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "..\\ERP.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAABQwC0AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:08:31.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Domain\\IRepositories\\IProductRepository.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IProductRepository.cs",
+              "RelativeToolTip": "..\\ERP.Domain\\IRepositories\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:05:11.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Domain\\IRepositories\\IEmployeeRepository.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\ERP.Domain\\IRepositories\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T13:05:14.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\ERP.Infrastructure\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T17:30:54.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IMarker.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IMarker.cs",
+              "RelativeDocumentMoniker": "..\\ERP.Domain\\IRepositories\\IMarker.cs",
+              "ToolTip": "D:\\ERPproject\\ERP.Domain\\IRepositories\\IMarker.cs",
+              "RelativeToolTip": "..\\ERP.Domain\\IRepositories\\IMarker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T17:28:04.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\ERPproject\\ERP\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-31T16:33:47.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\ERPproject\\ERP\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIAwwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T16:20:07.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ViewState": "AQIAAMkAAAAAAAAAAAAIwNAAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-31T16:19:02.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ERP.Domain.csproj.EntityFrameworkCore.targets",
+              "DocumentMoniker": "D:\\ERPproject\\ERP\\Domain\\obj\\ERP.Domain.csproj.EntityFrameworkCore.targets",
+              "RelativeDocumentMoniker": "Domain\\obj\\ERP.Domain.csproj.EntityFrameworkCore.targets",
+              "ToolTip": "D:\\ERPproject\\ERP\\Domain\\obj\\ERP.Domain.csproj.EntityFrameworkCore.targets",
+              "RelativeToolTip": "Domain\\obj\\ERP.Domain.csproj.EntityFrameworkCore.targets",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-31T16:19:25.283Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+<section class="content page-calendar">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 col-lg-8">
+                <div class="card">
+                    <div class="body">
+                      <full-calendar *ngIf="calendarOptions" #fullcalendar [options]="calendarOptions"></full-calendar>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+                <div class="card">
+                <div class="body">
+                    <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#addevent" (click)="openModal(content,'md')">Add New Event</button>
+                    <div class="event-name b-primary row">
+                        <div class="col-3 text-center">
+                            <h4>11<span>Dec</span><span>2017</span></h4>
+                        </div>
+                        <div class="col-9">
+                            <h6>Conference</h6>
+                            <p>Mobile World Congress 2020</p>
+                            <address><i class="zmdi zmdi-pin"></i> 71 Pilgrim Avenue Chevy Chase, MD 20815</address>
+                        </div>
+                    </div>
+                    <div class="event-name b-primary row">
+                        <div class="col-3 text-center">
+                            <h4>13<span>Dec</span><span>2017</span></h4>
+                        </div>
+                        <div class="col-9">
+                            <h6>Birthday</h6>
+                            <p>Today, guests are getting in on the action</p>
+                            <address><i class="zmdi zmdi-pin"></i> 4 Goldfield Rd. Honolulu, HI 96815</address>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="event-name b-lightred row">
+                        <div class="col-3 text-center">
+                            <h4>09<span>Dec</span><span>2017</span></h4>
+                        </div>
+                        <div class="col-9">
+                            <h6>Repeating Event</h6>
+                            <p>Before there were tech conferences, there was Disrupt.</p>
+                            <address><i class="zmdi zmdi-pin"></i> 44 Shirley Ave. West Chicago, IL 60185</address>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="event-name b-greensea row">
+                        <div class="col-3 text-center">
+                            <h4>16<span>Dec</span><span>2017</span></h4>
+                        </div>
+                        <div class="col-9">
+                            <h6>Repeating Event</h6>
+                            <p>It is a long established fact that a reader will be distracted</p>
+                            <address><i class="zmdi zmdi-pin"></i> 123 6th St. Melbourne, FL 32904</address>
+                        </div>
+                    </div>
+                    <div class="event-name b-greensea row">
+                        <div class="col-3 text-center">
+                            <h4>28<span>Dec</span><span>2017</span></h4>
+                        </div>
+                        <div class="col-9">
+                            <h6>Google</h6>
+                            <p>Google Hardware and Pixel 2 Launch</p>
+                            <address><i class="zmdi zmdi-pin"></i> 514 S. Magnolia St. Orlando, FL 32806</address>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div><!-- row end -->
+    </div>
+</section>
+<ng-template #content let-modal>
+	<div class="modal-header">
+		<h4 class="title" id="defaultModalLabel">Add Event</h4>
+	</div>
+	<div class="modal-body">
+		<div class="form-group">
+			<div class="form-line">
+				<input type="number" class="form-control" placeholder="Event Date">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="form-line">
+				<input type="text" class="form-control" placeholder="Event Title">
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="form-line">
+				<textarea class="form-control no-resize" placeholder="Event Description..."></textarea>
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-primary">Add</button>
+		<button type="button" class="btn btn-simple" data-dismiss="modal" (click)="modal.dismiss('Close click')">CLOSE</button>
+	</div>
+</ng-template>

@@ -1,0 +1,64 @@
+<section class="content">
+  <div class="container">
+      <div class="row clearfix row-deck">
+          <div class="col-lg-6 col-md-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Bootstrap Simple</strong> Example Tab
+                          <small>Takes the basic nav from above and adds the <code class="highlighter-rouge">.nav-tabs</code> class to generate a tabbed interface. Use them to create tabbable regions with our <a href="#javascript-behavior">tab JavaScript plugin</a>.</small>
+                      </h2>
+                        <app-card-actions></app-card-actions>
+                  </div>
+                  <app-tabs [tabs]="tabs"></app-tabs>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Example</strong> Tab 2 <small><code class="highlighter-rouge">.nav-tabs-new</code></small></h2>
+                    <app-card-actions></app-card-actions>
+                  </div>
+                  <app-tabs [tabs]="tabs" [type]="2"></app-tabs>
+              </div>
+          </div>
+          <div class="col-lg-12 col-md-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Example</strong> Tab 3 <small><code class="highlighter-rouge">.nav-tabs-new2</code></small></h2>
+                    <app-card-actions></app-card-actions>
+                </div>
+                  <app-tabs [tabs]="tabs" [type]="3"></app-tabs>
+              </div>
+          </div>
+      </div>
+      <div class="row clearfix">
+          <div class="col-lg-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Tabs With</strong> Icon</h2>
+                      <app-card-actions></app-card-actions>
+                  </div>
+                  <app-tabs [tabs]="tabsWithIcons" [type]="1"></app-tabs>
+              </div>
+          </div>
+          <div class="col-lg-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Tabs With</strong> Only Icon Title</h2>
+                      <app-card-actions></app-card-actions>
+                  </div>
+                  <app-tabs [tabs]="tabsWithoutTitle" [type]="1"></app-tabs>
+              </div>
+          </div>
+          <div class="col-lg-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Tabs with</strong> dropdowns</h2>
+                      <app-card-actions></app-card-actions>
+                  </div>
+                  <app-tabs [tabs]="tabsWithDropdown" [type]="1"></app-tabs>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

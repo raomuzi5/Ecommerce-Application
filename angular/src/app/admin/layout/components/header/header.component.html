@@ -1,0 +1,106 @@
+<!-- Top Bar -->
+<nav class="top_navbar">
+  <div class="container">
+      <div class="row clearfix">
+          <div class="col-12">
+              <div class="navbar-logo">
+                  <a href="javascript:void(0);" class="bars" (click)="toggleSmallMenu()"></a>
+                  <a class="navbar-brand" [routerLink]="['dashboard']"><img src="assets/images/logo.svg" width="100"
+                          alt="Riverra"></a>
+              </div>
+              <ul class="nav navbar-nav">
+                  <li class="search_bar hidden-xs">
+                      <form>
+                          <input type="search" placeholder="Search">
+                      </form>
+                  </li>
+                  <li class="notifications language-block">
+                    <div class="d-flex">
+                      <div class="lang-name">
+                        <p>EN</p>
+                      </div>
+                      <div class="dropdown" ngbDropdown>
+                        <div class="language-dropdown" ngbDropdown>
+                          <label class="lang-flag {{active}} label dropdown-toggle"  ngbDropdownToggle role="button">
+                              <span class="flag"></span>
+                          </label>
+                          <ul class="lang-list dropdown-menu" ngbDropdownMenu>
+
+                              <li class="lang langpt" title="PT" (click)="lan('langpt')"><span class="flag"></span></li>
+                              <li class="lang langes" title="ES" (click)="lan('langes')"><span class="flag"></span></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="dropdown task hidden-sm" ngbDropdown>
+                    <a href="javascript:void(0);" class="dropdown-toggle"
+                    ngbDropdownToggle role="button"><i class="zmdi zmdi-shopping-cart"></i><span class="label-count">5</span>
+                    </a>
+                      <div class="dropdown-menu" ngbDropdownMenu>
+                        <div class="product_item_list cart-page">
+                          <div class="body table-responsive p-0">
+                              <table class="table table-hover mb-0 cart-table">
+                                  <thead>
+                                      <tr>
+                                          <th>Image</th>
+                                          <th>Product Name</th>
+                                          <th data-breakpoints="xs">Amount</th>
+                                          <th data-breakpoints="sm xs md">Action</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td><img src="assets/images/ecommerce/1.png" width="48" alt="Product img"></td>
+                                          <td><h5>Simple Black Clock</h5></td>
+                                          <td>$16.00</td>
+                                          <td>
+                                              <a href="javascript:void(0);" class="btn btn-default waves-effect waves-float waves-green"><i class="zmdi zmdi-edit"></i></a>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td><img src="assets/images/ecommerce/2.png" width="48" alt="Product img"></td>
+                                          <td><h5>Simple Black Clock</h5></td>
+                                          <td>$16.00</td>
+                                          <td>
+                                              <a href="javascript:void(0);" class="btn btn-default waves-effect waves-float waves-green"><i class="zmdi zmdi-edit"></i></a>
+                                          </td>
+                                      </tr>
+                                      <tr>
+                                          <td><img src="assets/images/ecommerce/3.png" width="48" alt="Product img"></td>
+                                          <td><h5>Simple Black Clock</h5></td>
+                                          <td>$16.00</td>
+                                          <td>
+                                              <a href="javascript:void(0);" class="btn btn-default waves-effect waves-float waves-green"><i class="zmdi zmdi-edit"></i></a>
+                                          </td>
+                                      </tr>
+                                  </tbody>
+                                  <tfoot>
+                                      <tr>
+                                          <th colspan="3">Subtotal</th>
+                                          <th>$120.00</th>
+                                      </tr>
+                                  </tfoot>
+                              </table>
+                          </div>
+                        </div>
+                      </div>
+                  </li>
+                  <li class="dropdown profile" ngbDropdown>
+                    <a href="javascript:void(0);" class="dropdown-toggle" ngbDropdownToggle role="button">
+                        <img class="rounded-circle" src="assets/images/profile_av.jpg" alt="User">
+                    </a>
+                    <ul class="dropdown-menu" ngbDropdownMenu>
+                      <li><a href="profile.html"><i class="fa fa-user mr-2" aria-hidden="true"></i><span>My Profile</span></a></li>
+                      <li><a href="mail-inbox.html"><i class="fa fa-inbox mr-2" aria-hidden="true"></i><span>Inbox</span></a></li>
+                      <li><a href="locked.html"><i class="fa fa-lock mr-2" aria-hidden="true"></i><span>Locked</span></a></li>
+                      <li><a href="sign-in.html"><i class="fa fa-sign-out mr-2" aria-hidden="true"></i><span>Signout</span></a></li>
+                    </ul>
+                  </li>
+                  <li><a href="javascript:void(0);" class="js-right-sidebar" (click)="toggleRightBar()"><i class="icon-equalizer"></i></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+</nav>

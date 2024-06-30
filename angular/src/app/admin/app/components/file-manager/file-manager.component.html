@@ -1,0 +1,1151 @@
+<section class="content file_manager">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-lg-12">
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="body">
+                                <p class="text-muted">Storage <small class="text-muted float-right">of 1Tb</small></p>
+                                <h4 class="m-t-0">32GB</h4>
+                                <div class="progress m-t-10">
+                                    <div class="progress-bar l-green" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="body">
+                                <p class="text-muted">Documents <small class="text-muted float-right">of 1Tb</small></p>
+                                <h4 class="m-t-0">2GB</h4>
+                                <div class="progress m-t-10">
+                                    <div class="progress-bar l-blush" role="progressbar" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100" style="width: 12%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="body">
+                                <p class="text-muted">Media <small class="text-muted float-right">of 1Tb</small></p>
+                                <h4 class="m-t-0">10GB</h4>
+                                <div class="progress m-t-10">
+                                    <div class="progress-bar l-parpl" role="progressbar" aria-valuenow="39" aria-valuemin="0" aria-valuemax="100" style="width: 39%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card">
+                            <div class="body">
+                                <p class="text-muted">Images <small class="text-muted float-right">of 1Tb</small></p>
+                                <h4 class="m-t-0">20GB</h4>
+                                <div class="progress m-t-10">
+                                    <div class="progress-bar l-blue" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100" style="width: 89%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <ul class="nav nav-tabs file-manager-menu">
+                        <li class="nav-item"><a class="nav-link d-flex items-center" data-toggle="tab" (click)="toggleResults('Allfile')" [ngClass]="{'active': results == 'Allfile'}"><i class="material-icons mr-2 font-18">done_all</i>All File</a></li>
+                        <li class="nav-item"><a class="nav-link d-flex items-center" data-toggle="tab" (click)="toggleResults('Images')" [ngClass]="{'active': results == 'Images'}"><i class="material-icons mr-2 font-18">image</i>Images</a></li>
+                        <li class="nav-item"><a class="nav-link d-flex items-center" data-toggle="tab" (click)="toggleResults('Video')" [ngClass]="{'active': results == 'Video'}"><i class="material-icons mr-2 font-18">videocam</i>Video</a></li>
+                        <li class="nav-item"><a class="nav-link d-flex items-center" data-toggle="tab" (click)="toggleResults('Document')" [ngClass]="{'active': results == 'Document'}"><i class="material-icons mr-2 font-18">description</i>Documents</a></li>
+                    </ul>
+                    <ul class="border-t file-manager-menu">
+                        <li>
+                            <a href="#" class="d-flex items-center rounded-md">
+                                <div class="w-2 h-2 bg-theme-color-1 rounded-full mr-3"></div>
+                                Custom Work
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex items-center rounded-md">
+                                <div class="w-2 h-2 bg-theme-color-2 rounded-full mr-3"></div>
+                                Important Meetings
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex items-center rounded-md">
+                                <div class="w-2 h-2 bg-theme-color-3 rounded-full mr-3"></div>
+                                Work
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex items-center rounded-md">
+                                <div class="w-2 h-2 bg-theme-color-4 rounded-full mr-3"></div>
+                                Design
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex items-center rounded-md">
+                                <div class="w-2 h-2 bg-theme-color-1 rounded-full mr-3"></div>
+                                Next Week
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="d-flex items-center rounded-md">
+                                <i class="material-icons mr-2 font-18">add</i>
+                                Add New Label
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="input-search mb-3">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="form-group d-flex" ngbDropdown>
+                                <input type="text" class="form-control" placeholder="Search File" ngbDropdownToggle role="button">
+                                <div class="dropdown-menu option-show" ngbDropdownMenu>
+                                    <div class="p-3">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label>File Name</label>
+                                                    <input type="text" class="form-control" placeholder="Type the file name">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label>Shared With</label>
+                                                    <input type="text" class="form-control" placeholder="example@gmail.com">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-group">
+                                                    <label>Created At</label>
+                                                    <input type="text" class="form-control" placeholder="Important Meeting">
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="">
+                                                    <label>Size</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Size">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 flex items-center mt-3">
+                                                <button class="btn">Create Filter</button>
+                                                <button class="btn">Search</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <button class="btn m-0 float-right">Upload New Files</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-pane" [ngClass]="{'in active': results == 'Allfile'}" id="All">
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Document_2017.doc</p>
+                                                <small>Size: 42KB <span class="date text-muted">Nov 02, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/1.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-folder-image"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">hellonew.mkv</p>
+                                                <small>Size: 720MB <span class="date text-muted">Dec 08, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-playlist-audio"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">newsong.mp3</p>
+                                                <small>Size: 8MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-pdf"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">asdf  hhkj.pdf</p>
+                                                <small>Size: 3MB <span class="date text-muted">Aug 18, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Report2016.xls</p>
+                                                <small>Size: 68KB <span class="date text-muted">Dec 12, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Document_2017.doc</p>
+                                                <small>Size: 89KB <span class="date text-muted">Dec 15, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-video"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Jee Le Zara Song.mpg4</p>
+                                                <small>Size: 32MB <span class="date text-muted">Oct 11, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/3.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Nov 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-folder-image"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">hellonew.mkv</p>
+                                                <small>Size: 720MB <span class="date text-muted">Feb 16, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Report2017.xls</p>
+                                                <small>Size: 103KB <span class="date text-muted">Jan 24, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/2.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-folder-image"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">hellonew.mkv</p>
+                                                <small>Size: 720MB <span class="date text-muted">Dec 08, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-playlist-audio"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">newsong.mp3</p>
+                                                <small>Size: 8MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/8.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-pdf"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">asdf  hhkj.pdf</p>
+                                                <small>Size: 3MB <span class="date text-muted">Aug 18, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Report2016.xls</p>
+                                                <small>Size: 68KB <span class="date text-muted">Dec 12, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Document_2017.doc</p>
+                                                <small>Size: 89KB <span class="date text-muted">Dec 15, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" [ngClass]="{'in active': results == 'Document'}" id="Doc">
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Document_2017.doc</p>
+                                                <small>Size: 42KB <span class="date text-muted">Nov 02, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Document_2017.doc</p>
+                                                <small>Size: 89KB <span class="date text-muted">Dec 15, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Document_2017.doc</p>
+                                                <small>Size: 89KB <span class="date text-muted">Dec 15, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Document_2017.doc</p>
+                                                <small>Size: 42KB <span class="date text-muted">Nov 02, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Document_2017.doc</p>
+                                                <small>Size: 89KB <span class="date text-muted">Dec 15, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Document_2017.doc</p>
+                                                <small>Size: 89KB <span class="date text-muted">Dec 15, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-pdf"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">asdf  hhkj.pdf</p>
+                                                <small>Size: 3MB <span class="date text-muted">Aug 18, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-pdf"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">asdf  hhkj.pdf</p>
+                                                <small>Size: 3MB <span class="date text-muted">Aug 18, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-pdf"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">asdf  hhkj.pdf</p>
+                                                <small>Size: 3MB <span class="date text-muted">Aug 18, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-pdf"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">asdf  hhkj.pdf</p>
+                                                <small>Size: 3MB <span class="date text-muted">Aug 18, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Report2016.xls</p>
+                                                <small>Size: 68KB <span class="date text-muted">Dec 12, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Report2017.xls</p>
+                                                <small>Size: 103KB <span class="date text-muted">Jan 24, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Report2016.xls</p>
+                                                <small>Size: 68KB <span class="date text-muted">Dec 12, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Report2016.xls</p>
+                                                <small>Size: 68KB <span class="date text-muted">Dec 12, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Report2016.xls</p>
+                                                <small>Size: 68KB <span class="date text-muted">Dec 12, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-chart"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Report2017.xls</p>
+                                                <small>Size: 103KB <span class="date text-muted">Jan 24, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" [ngClass]="{'in active': results == 'Images'}" id="Image">
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/1.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/2.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/3.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/4.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/5.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/8.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="image">
+                                                <img src="assets/images/image-gallery/9.jpg" alt="img" class="img-fluid">
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">img21545ds.jpg</p>
+                                                <small>Size: 2MB <span class="date text-muted">Dec 11, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" [ngClass]="{'in active': results == 'Video'}" id="Video">
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-folder-image"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">hellonew.mkv</p>
+                                                <small>Size: 720MB <span class="date text-muted">Dec 08, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-video"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Jee Le Zara Song.mpg4</p>
+                                                <small>Size: 32MB <span class="date text-muted">Oct 11, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-folder-image"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">hellonew.mkv</p>
+                                                <small>Size: 720MB <span class="date text-muted">Dec 08, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-video"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Jee Le Zara Song.mpg4</p>
+                                                <small>Size: 32MB <span class="date text-muted">Oct 11, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-folder-image"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">hellonew.mkv</p>
+                                                <small>Size: 720MB <span class="date text-muted">Dec 08, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-video"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Jee Le Zara Song.mpg4</p>
+                                                <small>Size: 32MB <span class="date text-muted">Oct 11, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-folder-image"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">hellonew.mkv</p>
+                                                <small>Size: 720MB <span class="date text-muted">Dec 08, 2017</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-12">
+                                <div class="card">
+                                    <div class="file">
+                                        <a href="javascript:void(0);">
+                                            <div class="hover">
+                                                <button type="button" class="btn btn-icon btn-icon-mini btn-round btn-danger">
+                                                    <i class="zmdi zmdi-delete"></i>
+                                                </button>
+                                            </div>
+                                            <div class="icon">
+                                                <i class="zmdi zmdi-collection-video"></i>
+                                            </div>
+                                            <div class="file-name">
+                                                <p class="m-b-5 text-muted">Jee Le Zara Song.mpg4</p>
+                                                <small>Size: 32MB <span class="date text-muted">Oct 11, 2016</span></small>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- row end -->
+    </div>
+</section>
+
+
+

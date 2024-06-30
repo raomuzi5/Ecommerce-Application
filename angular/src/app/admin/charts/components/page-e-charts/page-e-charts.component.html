@@ -1,0 +1,83 @@
+<section class="content">
+  <div class="container">
+      <div class="row clearfix">
+          <div class="col-lg-12 col-md-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Stacked Area</strong>Chart</h2>
+                      <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div echarts [options]="chartOptions"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Bar Animation</strong> Chart</h2>
+                      <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div echarts [options]="baranimationOptions"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Pie</strong> Chart</h2>
+                      <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div echarts [options]="pieOptions"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Radar</strong></h2>
+                      <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div echarts [options]="radarOptions"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Punch</strong> Card</h2>
+                      <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div echarts [options]="punchCardOptions"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="card dropdown-hover-effect">
+                <div class="header">
+                    <h2><strong>Sales</strong> Report</h2>
+                    <app-card-actions></app-card-actions>
+                </div>
+                <div class="body">
+                  <div echarts [options]="salechart"></div>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="card">
+                  <div class="header">
+                      <h2><strong>Large scale area</strong> chart</h2>
+                      <app-card-actions></app-card-actions>
+                  </div>
+                  <div class="body">
+                      <div echarts [options]="LargeAreaOptions"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

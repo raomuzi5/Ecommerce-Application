@@ -1,0 +1,17 @@
+D:\ERPproject\ERP.Persistence\bin\Debug\net6.0\ERP.Persistence.deps.json
+D:\ERPproject\ERP.Persistence\bin\Debug\net6.0\ERP.Persistence.runtimeconfig.json
+D:\ERPproject\ERP.Persistence\bin\Debug\net6.0\ERP.Persistence.dll
+D:\ERPproject\ERP.Persistence\bin\Debug\net6.0\ERP.Persistence.pdb
+D:\ERPproject\ERP.Persistence\bin\Debug\net6.0\ERP.Domain.dll
+D:\ERPproject\ERP.Persistence\bin\Debug\net6.0\ERP.Domain.pdb
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ERP.Persistence.csproj.AssemblyReference.cache
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ERP.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ERP.Persistence.AssemblyInfoInputs.cache
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ERP.Persistence.AssemblyInfo.cs
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ERP.Persistence.csproj.CoreCompileInputs.cache
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ERP.Pers.FEC943E3.Up2Date
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ERP.Persistence.dll
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\refint\ERP.Persistence.dll
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ERP.Persistence.pdb
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ERP.Persistence.genruntimeconfig.cache
+D:\ERPproject\ERP.Persistence\obj\Debug\net6.0\ref\ERP.Persistence.dll

@@ -1,0 +1,137 @@
+<section class="content ecommerce-page">
+  <div class="container">
+    <main class="cd-main-content">
+      <div class="cd-tab-filter-wrapper card">
+          <div class="cd-filter-block mb-0 top-search">
+              <div class="cd-filter-content">
+                  <input type="search" placeholder="Try color-1...">
+              </div>
+          </div>
+      </div>
+      <section class="cd-gallery" [ngClass]="status ? 'filter-is-visible' : 'filter-is-invisible'">
+        <ul>
+            <li class="mix color-1 check3 radio2 option3" *ngFor="let productdataOption of productdataOptions">
+              <app-product-data [productbard]="productdataOption.productbard" [productname]="productdataOption.productname"  [discountprice]="productdataOption.discountprice"
+              [orignalprice]="productdataOption.orignalprice" [productimg]="productdataOption.productimg"></app-product-data>
+            </li>
+        </ul>
+        <div class="cd-fail-message">No results found</div>
+      </section>
+      <div class="cd-filter" [ngClass]="status ? 'filter-is-visible' : 'filter-is-invisible'">
+        <form>
+            <div class="cd-filter-block">
+                <h4>Search</h4>
+                <div class="cd-filter-content">
+                    <input type="search" placeholder="Try color-1...">
+                </div> <!-- cd-filter-content -->
+            </div> <!-- cd-filter-block -->
+
+            <div class="cd-filter-block">
+                <h4>Category</h4>
+
+                <ul class="cd-filter-content cd-filters list">
+                    <li>
+                        <input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+                        <label class="checkbox-label" for="checkbox1"> Accessories </label>
+                    </li>
+
+                    <li>
+                        <input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+                        <label class="checkbox-label" for="checkbox2"> Bag </label>
+                    </li>
+
+                    <li>
+                        <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                        <label class="checkbox-label" for="checkbox3"> Showpiece </label>
+                    </li>
+                </ul> <!-- cd-filter-content -->
+            </div> <!-- cd-filter-block -->
+
+            <div class="cd-filter-block">
+                <h4>Color</h4>
+                <ul class="cd-filter-content cd-filters list">
+                    <li>
+                        <input class="filter" data-filter="" type="radio" name="radioButton" id="radio1" checked>
+                        <label class="radio-label" for="radio1">All</label>
+                    </li>
+
+                    <li>
+                        <input class="filter" data-filter=".radio2" type="radio" name="radioButton" id="radio2">
+                        <label class="radio-label" for="radio2">Red</label>
+                    </li>
+
+                    <li>
+                        <input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio3">
+                        <label class="radio-label" for="radio3">Green</label>
+                    </li>
+
+                    <li>
+                        <input class="filter" data-filter=".radio3" type="radio" name="radioButton" id="radio4">
+                        <label class="radio-label" for="radio3">Blue</label>
+                    </li>
+                </ul> <!-- cd-filter-content -->
+            </div>
+
+            <div class="cd-filter-block">
+                <h4>Ratings</h4>
+                <ul class="cd-filter-content cd-filters list">
+                    <li>
+                        <input class="filter" data-filter=".check1" type="checkbox" id="checkbox1">
+                        <label class="checkbox-label" for="checkbox1">
+                            <span class="tx-15 ml-auto star">
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                            </span>
+                        </label>
+                    </li>
+                    <li>
+                        <input class="filter" data-filter=".check2" type="checkbox" id="checkbox2">
+                        <label class="checkbox-label" for="checkbox2">
+                            <span class="tx-15 ml-auto star">
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                            </span>
+                        </label>
+                    </li>
+                    <li>
+                        <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                        <label class="checkbox-label" for="checkbox3">
+                            <span class="tx-15 ml-auto star">
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                            </span>
+                        </label>
+                    </li>
+                    <li>
+                        <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                        <label class="checkbox-label" for="checkbox4">
+                            <span class="tx-15 ml-auto star">
+                                <i class="zmdi-star text-warning"></i>
+                                <i class="zmdi-star text-warning"></i>
+                            </span>
+                        </label>
+                    </li>
+                    <li>
+                        <input class="filter" data-filter=".check3" type="checkbox" id="checkbox3">
+                        <label class="checkbox-label" for="checkbox4">
+                            <span class="tx-15 ml-auto star">
+                                <i class="zmdi-star text-warning"></i>
+                            </span>
+                        </label>
+                    </li>
+                </ul> <!-- cd-filter-content -->
+            </div> <!-- cd-filter-block -->
+        </form>
+        <a [routerLink]="" class="cd-close" (click)="clickEvent()">Close</a>
+      </div> <!-- cd-filter -->
+      <a  [routerLink]="" class="cd-filter-trigger" (click)="clickEvent()" [ngClass]="status ? 'filter-is-visible' : 'filter-is-invisible'">Filters</a>
+    </main>
+  </div>
+</section>
+

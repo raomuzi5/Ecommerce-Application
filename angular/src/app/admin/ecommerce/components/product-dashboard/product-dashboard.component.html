@@ -1,0 +1,780 @@
+<section class="content ecommerce-page">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-xl-8 col-lg-12">
+                <div class="row clearfix">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2><strong>Product</strong> Report</h2>
+                                <app-card-actions></app-card-actions>
+                            </div>
+                            <div class="body product-report">
+                                <div class="row clearfix">
+                                    <div class="col-lg-12 col-xl-4">
+                                        <span class="p-3 inline-flex btn-round  text-danger mb-4 mr-2" style="background: rgba(255,54,54,0.15);float:left;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart "><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle>
+                                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                                            </svg>
+                                        </span>
+                                        <div class="col-in">
+                                            <small class="text-muted m-t-0">Sales Report</small>
+                                            <h3 class="counter m-b-0">$4,516</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-xl-4">
+                                        <span class="p-3 inline-flex btn-round  text-warning mb-4 mr-2" style="background: rgba(255,178,54,0.15); float: left;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag ">
+                                                <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                                                <line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path>
+                                            </svg>
+                                        </span>
+                                        <div class="col-in">
+                                            <small class="text-muted m-t-0">Orders Received</small>
+                                            <h3 class="counter m-b-0">$66,481</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-xl-4">
+                                        <span class="p-3 inline-flex btn-round  text-success mb-4 mr-2" style="background: rgba(24,206,15,0.15);float: left;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign ">
+                                                <line x1="12" y1="1" x2="12" y2="23"></line>
+                                                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                            </svg>
+                                        </span>
+                                        <div class="col-in">
+                                            <small class="text-muted m-t-0">Revenue Generated</small>
+                                            <h3 class="counter m-b-0">$3,915</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div echarts [options]="chartOptions"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="card visitors-map">
+                            <div class="header">
+                                <h2><strong>Top</strong> Selling Country</h2>
+                            </div>
+                            <div class="body">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                        <div echarts [options]="countryOptions"></div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover m-b-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Contrary</th>
+                                                        <th>2016</th>
+                                                        <th>2017</th>
+                                                        <th>Change</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>USA</td>
+                                                        <td>2,009</td>
+                                                        <td>3,591</td>
+                                                        <td>7.01% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>India</td>
+                                                        <td>1,129</td>
+                                                        <td>1,361</td>
+                                                        <td>3.01% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Canada</td>
+                                                        <td>2,009</td>
+                                                        <td>2,901</td>
+                                                        <td>9.01% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Australia</td>
+                                                        <td>954</td>
+                                                        <td>901</td>
+                                                        <td>5.71% <i class="zmdi zmdi-trending-down text-warning"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Germany</td>
+                                                        <td>594</td>
+                                                        <td>500</td>
+                                                        <td>6.11% <i class="zmdi zmdi-trending-down text-warning"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>UK</td>
+                                                        <td>1,500</td>
+                                                        <td>1,971</td>
+                                                        <td>8.50% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Other</td>
+                                                        <td>4,236</td>
+                                                        <td>4,591</td>
+                                                        <td>9.15% <i class="zmdi zmdi-trending-up text-success"></i></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2><strong>Annual</strong> Report</h2>
+                                <app-card-actions></app-card-actions>
+                            </div>
+                            <div class="body">
+                              <div echarts [options]="LargeAreaOptions"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row clearfix">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2><strong>Top</strong> Keyword</h2>
+                            </div>
+                            <div class="body">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover mb-0">
+                                              <thead>
+                                                <tr>
+                                                  <th>Keyword</th>
+                                                  <th>Revenue</th>
+                                                  <th>Conversion Rate</th>
+                                                </tr>
+                                              </thead>
+                                              <tbody>
+                                                <tr>
+                                                  <td>Nike</td>
+                                                  <td>$49,897</td>
+                                                  <td>8.61%</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Polo</td>
+                                                  <td>$15,478</td>
+                                                  <td>2.10%</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Men & Black</td>
+                                                  <td>$23,546</td>
+                                                  <td>4.35%</td>
+                                                </tr>
+                                                <tr>
+                                                  <td>Rado clock</td>
+                                                  <td>$36,589</td>
+                                                  <td>1.58%</td>
+                                                </tr>
+                                                 <tr>
+                                                  <td>Phone</td>
+                                                  <td>$55,467</td>
+                                                  <td>56%</td>
+                                                </tr>
+                                                 <tr>
+                                                  <td>Laptop</td>
+                                                  <td>$71,245</td>
+                                                  <td>47.6%</td>
+                                                </tr>
+                                                <tr>
+                                                 <td>Noise</td>
+                                                 <td>$75,245</td>
+                                                 <td>47.6%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Apple</td>
+                                                    <td>$56,245</td>
+                                                    <td>42.6%</td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-6 col-lg-12 col-md-12">
+                                      <div class="card box-sale mb-0 bg-lightest">
+                                          <div class="header">
+                                              <h2><strong>Sales</strong> Overview</h2>
+                                          </div>
+                                          <div class="box-body">
+                                            <div class="d-flex justify-content-between align-items-center mb-10">
+                                              <div>
+                                                <h5 class="mb-0">Nike</h5>
+                                                <small class="text-muted">25 min ago</small>
+                                              </div>
+                                              <div>
+                                                <h6 class="mb-0"><span class="text-success">+</span> $250</h6>
+                                              </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center mb-10">
+                                              <div>
+                                                <h5 class="mb-0">iPhone</h5>
+                                                <small class="text-muted">5 hour ago</small>
+                                              </div>
+                                              <div>
+                                                <h6 class="mb-0"><span class="text-danger">-</span> $589</h6>
+                                              </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                              <div>
+                                                <h5 class="mb-0">Laptop</h5>
+                                                <small class="text-muted">3 day ago</small>
+                                              </div>
+                                              <div>
+                                                <h6 class="mb-0"><span class="text-success">+</span> $1292</h6>
+                                              </div>
+                                            </div>
+                                          </div>
+                                          <div class="box-footer">
+                                            <h4 class="mb-0 mt-0">Total Sales</h4>
+                                            <p class="font-size-18 font-weight-700">$8,459k</p>
+                                            <div class="progress">
+                                              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                                <span class="sr-only">40% Complete (primary)</span>
+                                              </div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row clearfix row-deck">
+                    <div class="col-lg-12 col-md-12 col-xl-6">
+                        <div class="card">
+                            <div class="header">
+                                <h2><strong>New</strong> Orders</h2>
+                                <app-card-actions></app-card-actions>
+                            </div>
+                            <div class="body table-responsive members_profiles">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Customer</th>
+                                            <th>Product Item</th>
+                                            <th>Status</th>
+                                            <th>Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>GARY CAMARA</td>
+                                            <td>
+                                                <div class="cell-image-list">
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/1.png)"></div>
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/2.png)"></div>
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/3.png)"></div>
+                                                    <div class="cell-img-more">+ 5 more</div>
+                                                </div>
+                                            </td>
+                                            <td><span class="badge badge-success">DONE</span></td>
+                                            <td>$354</td>
+                                        </tr>
+                                        <tr>
+                                            <td>MARYAM AMIRI</td>
+                                            <td>
+                                                <div class="cell-image-list">
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/4.png)"></div>
+                                                </div>
+                                            </td>
+                                            <td><span class="badge badge-default">Delivered</span></td>
+                                            <td>$15</td>
+                                        </tr>
+                                        <tr>
+                                            <td>TIM HANK</td>
+                                            <td>
+                                                <div class="cell-image-list">
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/5.png)"></div>
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/6.png)"></div>
+                                                </div>
+                                            </td>
+                                            <td><span class="badge badge-warning">PENDING</span></td>
+                                            <td>$204</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Michael</td>
+                                            <td>
+                                                <div class="cell-image-list">
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/1.png)"></div>
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/2.png)"></div>
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/3.png)"></div>
+                                                    <div class="cell-img-more">+ 5 more</div>
+                                                </div>
+                                            </td>
+                                            <td><span class="badge badge-success">DONE</span></td>
+                                            <td>$354</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Wade</td>
+                                            <td>
+                                                <div class="cell-image-list">
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/9.png)"></div>
+                                                    <div class="cell-img" style="background-image: url(assets/images/ecommerce/6.png)"></div>
+                                                </div>
+                                            </td>
+                                            <td><span class="badge badge-danger">Cancelled</span></td>
+                                            <td>$204</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-xl-6">
+                        <div class="card">
+                            <div class="header">
+                                <h2><strong>New</strong> Customer Ratings </h2>
+                                <app-card-actions></app-card-actions>
+                            </div>
+                            <div class="body">
+                                <ul class="row list-unstyled c_review">
+                                    <li class="col-12">
+                                        <div class="avatar">
+                                            <a href="javascript:void(0);"><img class="rounded" src="assets/images/sm/avatar2.jpg" alt="user" width="60"></a>
+                                        </div>
+                                        <div class="comment-action">
+                                            <h6 class="c_name">Hossein Shams</h6>
+                                            <p class="c_msg m-b-0">Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. </p>
+                                            <div class="badge badge-info">iPhone 8</div>
+                                            <span class="m-l-10">
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                            </span>
+                                            <small class="comment-date float-sm-right">Dec 21, 2017</small>
+                                        </div>
+                                    </li>
+                                    <li class="col-12">
+                                        <div class="avatar">
+                                            <a href="javascript:void(0);"><img class="rounded" src="assets/images/sm/avatar3.jpg" alt="user" width="60"></a>
+                                        </div>
+                                        <div class="comment-action">
+                                            <h6 class="c_name">Tim Hank</h6>
+                                            <p class="c_msg m-b-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                            <div class="badge badge-info">Nokia 8</div>
+                                            <span class="m-l-10">
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star-outline text-muted"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star-outline text-muted"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star-outline text-muted"></i></a>
+                                            </span>
+                                            <small class="comment-date float-sm-right">Dec 18, 2017</small>
+                                        </div>
+                                    </li>
+                                    <li class="col-12">
+                                        <div class="avatar">
+                                            <a href="javascript:void(0);"><img class="rounded" src="assets/images/sm/avatar4.jpg" alt="user" width="60"></a>
+                                        </div>
+                                        <div class="comment-action">
+                                            <h6 class="c_name">Maryam Amiri</h6>
+                                            <p class="c_msg m-b-0">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                                            <div class="badge badge-info">Samsung Galaxy S8</div>
+                                            <span class="m-l-10">
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star-outline text-muted"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star-outline text-muted"></i></a>
+                                            </span>
+                                            <small class="comment-date float-sm-right">Dec 18, 2017</small>
+                                        </div>
+                                    </li>
+                                    <li class="col-12">
+                                        <div class="avatar">
+                                            <a href="javascript:void(0);"><img class="rounded" src="assets/images/sm/avatar5.jpg" alt="user" width="60"></a>
+                                        </div>
+                                        <div class="comment-action">
+                                            <h6 class="c_name">Gary Camara</h6>
+                                            <p class="c_msg m-b-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                                            <div class="badge badge-info">HTC U11</div>
+                                            <span class="m-l-10">
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star col-amber"></i></a>
+                                                <a href="javascript:void(0);"><i class="zmdi zmdi-star-outline text-muted"></i></a>
+                                            </span>
+                                            <small class="comment-date float-sm-right">Dec 13, 2017</small>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-12">
+                <div class="card">
+                    <div class="header">
+                        <h2><strong>Quick</strong> Links</h2>
+                    </div>
+                    <div class="body">
+                        <div class="el-buttons-list full-width">
+                            <a class="btn btn-sm w-100 p-2"  [routerLink]="['../product']">
+                                <i class="os-icon os-icon-delivery-box-2"></i>
+                                <span>Create New Product</span>
+                            </a>
+                            <a class="btn btn-sm w-100 p-2" [routerLink]="['../product-list']">
+                                <i class="os-icon os-icon-window-content"></i>
+                                <span>Product List</span>
+                            </a>
+                            <a class="btn btn-sm w-100 p-2" [routerLink]="['../product-order']">
+                                <i class="os-icon os-icon-wallet-loaded"></i>
+                                <span>Product Order</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header">
+                        <h2><strong>Support </strong> Agents</h2>
+                    </div>
+                    <div class="body">
+                        <div class="profile-tile">
+                            <a class="profile-tile-box" href="#">
+                                <div class="pt-avatar-w">
+                                    <img alt="" src="assets/images/sm/avatar2.jpg">
+                                </div>
+                                <div class="pt-user-name">John Mayers</div>
+                            </a>
+                            <div class="profile-tile-meta">
+                                <ul>
+                                    <li>Last Login:<strong>Online Now</strong></li>
+                                    <li>Tickets:<strong><a href="#">12</a></strong></li>
+                                    <li>Response Time:<strong>2 hours</strong></li>
+                                </ul>
+                                <div class="pt-btn"><a class="btn btn-success btn-sm" href="#">Send Message</a></div>
+                            </div>
+                        </div>
+                        <div class="profile-tile mb-0 border-bottom-0 pb-0">
+                            <a class="profile-tile-box" href="#">
+                                <div class="pt-avatar-w">
+                                    <img alt="" src="assets/images/sm/avatar3.jpg">
+                                </div>
+                                <div class="pt-user-name">Ben Gossman</div>
+                            </a>
+                            <div class="profile-tile-meta">
+                                <ul>
+                                    <li>Last Login:<strong>Offline</strong></li>
+                                    <li>Tickets:<strong><a href="#">9</a></strong></li>
+                                    <li>Response Time:<strong>3 hours</strong></li>
+                                </ul>
+                                <div class="pt-btn">
+                                    <a class="btn btn-secondary btn-sm" href="#">Send Message</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header">
+                        <h2><strong>Recent </strong> Activity</h2>
+                    </div>
+                    <div class="body">
+                        <div class="timeline-block">
+                            <div class="header p-0">
+                                <div class="color-overlay">
+                                    <div class="day-number">8</div>
+                                    <div class="date-right">
+                                    <div class="day-name">Monday</div>
+                                    <div class="month">February 2015</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="nav nav-tabs align-justify">
+                                <li class="nav-item"><a class="nav-link active" (click)="toggleSetting('Support')" [ngClass]="{'active': setting == 'Support'}">Support Requests</a></li>
+                                <li class="nav-item"><a class="nav-link" (click)="toggleSetting('Messages')" [ngClass]="{'active': setting == 'Messages'}">Messages</a></li>
+                                <li class="nav-item"><a class="nav-link" (click)="toggleSetting('Events')" [ngClass]="{'active': setting == 'Events'}">Events</a></li>
+                            </ul>
+                            <div class="body">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="Support" [ngClass]="{'active': setting == 'Support'}">
+                                        <div class="timeline">
+                                            <ul>
+                                                <li>
+                                                <div class="bullet pink"></div>
+                                                <div class="time">10am</div>
+                                                <div class="desc">
+                                                    <h3>GARY CAMARA</h3>
+                                                    <h4>Thanks for contact us with your issues</h4>
+                                                    <div class="people">
+                                                        <img src="assets/images/sm/avatar2.jpg" alt="" />
+                                                    </div>
+                                                </div>
+                                                </li>
+                                                <li>
+                                                <div class="bullet green"></div>
+                                                <div class="time">3 - 4pm</div>
+                                                <div class="desc">
+                                                    <h3>HOSSEIN SHAMS</h3>
+                                                    <h4>Thanks for contact us with your issues</h4>
+                                                    <div class="people">
+                                                        <img src="assets/images/sm/avatar5.jpg" alt="" />
+                                                    </div>
+                                                </div>
+                                                </li>
+                                                <li>
+                                                <div class="bullet orange"></div>
+                                                <div class="time">12pm</div>
+                                                <div class="desc">
+                                                    <h3>Lunch Break</h3>
+                                                </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="Messages" [ngClass]="{'active': setting == 'Messages'}">
+                                        <div class="timeline">
+                                            <ul>
+                                                <li>
+                                                <div class="bullet pink"></div>
+                                                <div class="time">6pm</div>
+                                                <div class="desc">
+                                                    <h3>New Logo</h3>
+                                                    <h4>Mobile App</h4>
+                                                </div>
+                                                </li>
+                                                <li>
+                                                <div class="bullet green"></div>
+                                                <div class="time">3 - 4pm</div>
+                                                <div class="desc">
+                                                    <h3>Stand Up Meeting </h3>
+                                                    <h4>Hangouts</h4>
+                                                    <div class="people">
+                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/ashleyford/128.jpg" alt="" />
+                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg" alt="" />
+                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/mattsince87/128.jpg" alt="" />
+                                                    </div>
+                                                </div>
+                                                </li>
+                                                <li>
+                                                <div class="bullet orange"></div>
+                                                <div class="time">1pm</div>
+                                                <div class="desc">
+                                                    <h3>Lunch Break</h3>
+                                                </div>
+                                                </li>
+                                                <li>
+                                                <div class="bullet green"></div>
+                                                <div class="time">9 - 11am</div>
+                                                <div class="desc">
+                                                    <h3>Finish Home Screen Design</h3>
+                                                    <h4>Mobile App</h4>
+                                                </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="Events" [ngClass]="{'active': setting == 'Events'}">
+                                        <div class="timeline">
+                                            <ul>
+                                                <li>
+                                                <div class="bullet pink"></div>
+                                                <div class="time">5pm</div>
+                                                <div class="desc">
+                                                    <h3>video Meeting </h3>
+                                                    <h4>Hangouts</h4>
+                                                </div>
+                                                </li>
+                                                <li>
+                                                <div class="bullet green"></div>
+                                                <div class="time">3 - 4pm</div>
+                                                <div class="desc">
+                                                    <h3>Walk in Interview</h3>
+                                                    <h4>Conference</h4>
+                                                    <div class="people">
+                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/ashleyford/128.jpg" alt="" />
+                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/kfriedson/128.jpg" alt="" />
+                                                    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/mattsince87/128.jpg" alt="" />
+                                                    </div>
+                                                </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header">
+                        <h2><strong>Top</strong> Five Product</h2>
+                    </div>
+                    <div class="body text-center">
+                      <div echarts [options]="topfiveproduct" [autoResize]="true"></div>
+                    </div>
+                    <div class="header">
+                        <h2><strong>Top</strong> Five Product seller</h2>
+                    </div>
+                    <div class="body remove-dot">
+                      <ngb-carousel>
+                        <ng-template ngbSlide>
+                          <div class="picsum-img-wrapper widget-user">
+                            <img class="rounded-circle" src="assets/images/sm/avatar4.jpg" alt="">
+                            <div class="wid-u-info">
+                              <h5>Fidel Tonn</h5>
+                              <div class="pt-btn">
+                                  <a class="btn btn-secondary btn-sm" href="#">Full Report</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-caption vt">
+                            <div class="row">
+                              <div class="col-4">
+                                  <h5 class="m-b-0">85</h5>
+                                  <small>Product Lead</small>
+                              </div>
+                              <div class="col-4">
+                                  <h5 class="m-b-0">$5848</h5>
+                                  <small>Product Sales</small>
+                              </div>
+                              <div class="col-4">
+                                  <h5 class="m-b-0">152</h5>
+                                  <small>Product Left</small>
+                              </div>
+                            </div>
+                          </div>
+                        </ng-template>
+                        <ng-template ngbSlide>
+                          <div class="picsum-img-wrapper widget-user">
+                            <img class="rounded-circle" src="assets/images/sm/avatar5.jpg" alt="">
+                            <div class="wid-u-info">
+                              <h5>Fidel Tonn</h5>
+                              <div class="pt-btn">
+                                  <a class="btn btn-secondary btn-sm" href="#">Full Report</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="carousel-caption vt">
+                            <div class="row">
+                              <div class="col-4">
+                                  <h5 class="m-b-0">85</h5>
+                                  <small>Product Lead</small>
+                              </div>
+                              <div class="col-4">
+                                  <h5 class="m-b-0">$5848</h5>
+                                  <small>Product Sales</small>
+                              </div>
+                              <div class="col-4">
+                                  <h5 class="m-b-0">152</h5>
+                                  <small>Product Left</small>
+                              </div>
+                            </div>
+                          </div>
+                        </ng-template>
+                        <ng-template ngbSlide>
+                          <div class="picsum-img-wrapper widget-user">
+                          <img class="rounded-circle" src="assets/images/sm/avatar6.jpg" alt="">
+                          <div class="wid-u-info">
+                            <h5>Fidel Tonn</h5>
+                            <div class="pt-btn">
+                                <a class="btn btn-secondary btn-sm" href="#">Full Report</a>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="carousel-caption vt">
+                            <div class="row">
+                              <div class="col-4">
+                                  <h5 class="m-b-0">85</h5>
+                                  <small>Product Lead</small>
+                              </div>
+                              <div class="col-4">
+                                  <h5 class="m-b-0">$5848</h5>
+                                  <small>Product Sales</small>
+                              </div>
+                              <div class="col-4">
+                                  <h5 class="m-b-0">152</h5>
+                                  <small>Product Left</small>
+                              </div>
+                            </div>
+                          </div>
+                        </ng-template>
+                      </ngb-carousel>
+                    </div>
+                    <div class="header">
+                        <h2><strong>Team </strong> Chat</h2>
+                    </div>
+                    <div class="body">
+                        <div class="input-search-w">
+                            <input class="form-control rounded bright" placeholder="Search team members..."
+                                type="search">
+                        </div>
+                        <div class="users-list-w">
+                            <div class="user-w with-status status-green">
+                                <div class="user-avatar-w">
+                                    <div class="user-avatar"><img alt="" src="assets/images/sm/avatar1.jpg"></div>
+                                </div>
+                                <div class="user-name">
+                                    <h6 class="user-title">Cedric Kelly</h6>
+                                    <div class="user-role">Account Manager</div>
+                                </div><a class="user-action" href="#">
+                                    <div class="icon-bubble"></div>
+                                </a>
+                            </div>
+                            <div class="user-w with-status status-green">
+                                <div class="user-avatar-w">
+                                    <div class="user-avatar"><img alt="" src="assets/images/sm/avatar2.jpg"></div>
+                                </div>
+                                <div class="user-name">
+                                    <h6 class="user-title">Bradley Greer</h6>
+                                    <div class="user-role">Administrator</div>
+                                </div><a class="user-action" href="#">
+                                    <div class="icon-bubble"></div>
+                                </a>
+                            </div>
+                            <div class="user-w with-status status-red">
+                                <div class="user-avatar-w">
+                                    <div class="user-avatar"><img alt="" src="assets/images/sm/avatar3.jpg"></div>
+                                </div>
+                                <div class="user-name">
+                                    <h6 class="user-title">Hope Fuentes</h6>
+                                    <div class="user-role">HR Manger</div>
+                                </div><a class="user-action" href="#">
+                                    <div class="icon-bubble"></div>
+                                </a>
+                            </div>
+                            <div class="user-w with-status status-green">
+                                <div class="user-avatar-w">
+                                    <div class="user-avatar"><img alt="" src="assets/images/sm/avatar4.jpg"></div>
+                                </div>
+                                <div class="user-name">
+                                    <h6 class="user-title">Jennifer Acosta</h6>
+                                    <div class="user-role">Lead Developer</div>
+                                </div><a class="user-action" href="#">
+                                    <div class="icon-bubble"></div>
+                                </a>
+                            </div>
+                            <div class="user-w with-status status-green">
+                                <div class="user-avatar-w">
+                                    <div class="user-avatar"><img alt="" src="assets/images/sm/avatar5.jpg"></div>
+                                </div>
+                                <div class="user-name">
+                                    <h6 class="user-title">Cedric Kelly</h6>
+                                    <div class="user-role">Lead Designer</div>
+                                </div><a class="user-action" href="#">
+                                    <div class="icon-bubble"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
